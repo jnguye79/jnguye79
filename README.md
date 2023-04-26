@@ -20,6 +20,7 @@ Here are some ideas to get you started:
 </p>
 
 ---
+# Languages Used
 
 <img align="left" width="100px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
 <img align="left" width="100px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
@@ -32,6 +33,6 @@ Here are some ideas to get you started:
 <img align="left" width="100px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" />
 
 ---
-#
+# Stats
 
 ![jnguye79's GitHub stats](https://github-readme-stats.vercel.app/api?username=jnguye79&show_icons=true&theme=radical)
