@@ -1,6 +1,6 @@
 # Jimmy N. 👋
 
-I'm an upcoming graduate from the University of Maryland, College Park with a major in Inforamtion Science. My day-to-day basis consolidates around work, personal projects, and learning new skills. I hope to bring about specific contributions that can help the world feel safer, easier, and better. In the future, I plan to share media on how to easily use tech to help individuals with their daily lives. I hope you enjoy the rest of my profile page!
+I'm an upcoming graduate from the University of Maryland, College Park with a major in Information Science. My day-to-day basis consolidates around work, personal projects, and learning new skills. I hope to bring about specific contributions that can help the world feel safer, easier, and better. In the future, I plan to share media on how to easily use tech to help individuals with their daily lives. I hope you enjoy the rest of my profile page!
 
 Here are some ideas to get you started:
 
