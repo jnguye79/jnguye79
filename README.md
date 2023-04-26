@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 
 # Stats
 ![jnguye79's GitHub stats](https://github-readme-stats.vercel.app/api?username=jnguye79&show_icons=true&theme=radical)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/jnguye79/github-readme-stats)
 
 # Languages Used
 <img align="left" width="100px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
