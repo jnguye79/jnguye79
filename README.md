@@ -2,9 +2,7 @@
 
 I'm an upcoming graduate from the University of Maryland, College Park with a major in Information Science. My day-to-day basis consolidates around work, personal projects, and learning new skills. I hope to bring about specific contributions that can help the world feel safer, easier, and better. In the future, I plan to share media on how to easily use tech to help individuals with their daily lives. I hope you enjoy the rest of my profile page!
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on Dyanmic Web Applications (INST377), Statistics for Information Science (INST314), Information User Needs and Assessment (INST352), Introduction to Computer Science (CS50x).
+- 🔭 I’m currently working on Dynamic Web Applications (INST377), Statistics for Information Science (INST314), Information User Needs and Assessment (INST352), Introduction to Computer Science (CS50x).
 - 🌱 I’m currently learning HTML/CSS/JS, R, Python, SQL, C.
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
