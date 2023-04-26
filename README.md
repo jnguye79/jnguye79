@@ -33,4 +33,4 @@ Here are some ideas to get you started:
 
 ---
 
-![jnguye79's GitHub stats]<p>(https://github-readme-stats.vercel.app/api?username=jnguye79&show_icons=true&theme=radical)</p>
+![jnguye79's GitHub stats](https://github-readme-stats.vercel.app/api?username=jnguye79&show_icons=true&theme=radical)
