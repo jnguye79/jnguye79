@@ -1,7 +1,9 @@
-### Hi there 👋
+# Jimmy N. 👋
 
 <!--
 **jnguye79/jnguye79** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+I'm an upcoming graduate from the University of Maryland, College Park with a major in Inforamtion Science. My day-to-day basis consolidates around work, personal projects, and learning new skills. I hope to bring about specific contributions that can help the world feel safer, easier, and better. In the future, I plan to share media on how to easily use tech to help individuals with their daily lives. I hope you enjoy the rest of my profile page!
 
 Here are some ideas to get you started:
 
@@ -11,6 +13,5 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- ⚡ Fun Question: With AI being at the forefront of controversy, what do you think we can do to enforce precautions around the development of AI. In doing so, how can we compete against other world powers who are also developing AI as well? Feel free to hit me up with a message and I'd love to chat with you about this topic!
 -->
