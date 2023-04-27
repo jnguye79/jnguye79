@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0;
+}
+
+.outside_header {
+    background-color: #cdc9c9;
+    width: 100%;
+    height: 60px;
+}
+
+.header {
+    background-color: #cdc9c9;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+
+}
+
+li {
+    list-style: none;
+}
+
+.nav_links{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.body {
+    background-color: #f2eee9;
+}
+
+a.button:hover {
+    background-color: red;
+}
+
+footer {
+    background-color: #cdc9c9;
+}
