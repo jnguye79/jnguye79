@@ -5,19 +5,17 @@
     text-decoration: none;
 }
 
-body {
-    background-color: #f2eee9;
-    margin: 0px;
+a {
+    transition: color 0.5s ease;
 }
 
-.body {
-    margin: 50px;
+a:hover {
+    color: #51586f;
 }
 
-img {
-    height: 100px;
-}
 
+
+/* Header Properties */
 .header {
     background-color: #cdc9c9;
     display: flex;
@@ -30,6 +28,10 @@ img {
     margin-top: 5px;
 }
 
+.header h1 a {
+    color: #51586f;
+}
+
 .nav_links {
     list-style: none;
     display: flex;
@@ -39,7 +41,67 @@ img {
 }
 
 .nav_links:hover {
-    color: 
+    color: #51586f;
+}
+
+
+
+/* Body Properties */
+body {
+    background-color: #f2eee9;
+    margin: 0px;
+}
+
+.body {
+    margin: 50px;
+    color: #51586f;
+}
+
+.body h2 i{
+    color: #51586f;
+}
+
+.body p {
+    color: #51586f;
+}
+
+.body p a {
+    text-decoration: underline;
+}
+.body img {
+    height: 100px;
+}
+
+/* Card Properties */
+.card-container ul {
+    list-style: none;
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 5fr));
+    grid-gap: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    border-radius: 25%;
+    padding-top: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px 15px;
 }
 
 footer {
