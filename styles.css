@@ -1,10 +1,17 @@
 /* CSS File */
 * {
-    color: color-mix(in srgb, #838795 75%, #a6a7ac)
+    color: color-mix(in srgb, #838795 75%, #a6a7ac);
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
 }
+
 body {
     background-color: #f2eee9;
     margin: 0px;
+}
+
+.body {
+    margin: 50px;
 }
 
 img {
@@ -15,10 +22,15 @@ img {
     background-color: #cdc9c9;
     display: flex;
     justify-content: space-between;
+    height: 50px;
+}
+
+.header h1 {
+    margin-left: 20px; 
+    margin-top: 5px;
 }
 
 .nav_links {
-    color: 
     list-style: none;
     display: flex;
     gap: 2rem;
@@ -41,4 +53,13 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.foot_links li {
+    padding: 5px;
+}
+
+.foot_links li img {
+    width: 50px;
+    height: auto;
 }
