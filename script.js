@@ -65,7 +65,9 @@ const displayList = (data) => {
             <img src="${dataList.thumbnail}" title="${dataList.thumbnail}">
             <div class="container">
             <h4><b>${dataList.title}</b></h4>
+            <p>${dataList.type}</p>
             ${dataList.caption}
+            </div>
             </a></div>
         </li>
     `
