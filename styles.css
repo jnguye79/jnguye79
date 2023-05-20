@@ -72,6 +72,13 @@ body {
     height: 100px;
 }
 
+/* Filter Properties for Posts.html and Portfolio.html */
+.filter-options {
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
 /* Card Properties */
 .card-container ul {
     list-style: none;
