@@ -74,9 +74,17 @@ body {
 
 /* Filter Properties for Posts.html and Portfolio.html */
 .filter-options {
-    position: fixed;
-    top: 50px;
-    right: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.filter-options p {
+    font-size: 15px;
+    margin: 0px;
+    border: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 /* Card Properties */
@@ -132,3 +140,12 @@ footer {
     width: 50px;
     height: auto;
 }
+
+@media only screen and (max-width: 550px) {
+    .header {
+        height: 100px;
+    }
+    .nav_links {
+        
+    }
+  }
