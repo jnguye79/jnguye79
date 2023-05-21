@@ -13,6 +13,17 @@ function filterTitleList(array, filterInputValue) {
     return filtered;
   }
 
+  function filterTypeList(array, filterInputValue) {
+    var filtered = [];
+    for (var i = 0; i < array.length; i++) {
+      var unfiltered = array[i];
+      if (unfiltered.type.toLowerCase().includes(filterInputValue.toLowerCase())) {
+        filtered.push(unfiltered);
+      }
+    }
+    return filtered;
+  }
+
 /* Rework to add fetch and catch to handle errors during asynchronous moments. Understand the concept!... */
 const fetchData = () => {
     return fetch('data.json')
@@ -33,7 +44,7 @@ const fetchData = () => {
 
 async function mainEvent() {
     const titleField = document.querySelector("#Title");
-    const typeField = document.querySelector("Type");
+    const typeField = document.querySelector("#Type");
 
     await fetchData();
     displayList(data_global.posts);
@@ -46,13 +57,13 @@ async function mainEvent() {
         console.log("Loading New List...");
         displayList(newList);
     })
-/*
+
     typeField.addEventListener("input", (event) => {
         console.log("input", event.target.value);
-        const newList = filterList(global_val, event.target.value);
+        const newList = filterTypeList(data_global.posts, event.target.value);
         console.log("Loading New List...");
-        display(newList);
-    }) */
+        displayList(newList);
+    })
 }
 
 /* Update display content here... */
