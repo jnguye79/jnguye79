@@ -45,11 +45,16 @@ const fetchData = () => {
 async function mainEvent() {
     const titleField = document.querySelector("#Title");
     const typeField = document.querySelector("#Type");
+    const NameField = document.querySelector("#Name");
+    const TopicField = document.querySelector("#Topic")
+    const CodeLangField = document.querySelector("#Coding-Lang")
 
     await fetchData();
-    displayList(data_global.posts);
-    /* Continue edits here... */
-    
+    if (currentPage === 'https://jnguye79.github.io/jnguye79/portfolio.html') {
+      displayList(data_global);
+    } else if (currentPage === 'https://jnguye79.github.io/jnguye79/posts.html') {
+      displayList(data_global);
+    }
 
     titleField.addEventListener("input", (event) => {
         console.log("input", event.target.value);
