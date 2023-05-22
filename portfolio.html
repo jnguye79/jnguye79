@@ -27,18 +27,33 @@
         <p>For more information pertaining to each project, please check out my <a style="text-decoration: underline" href="https://github.com/jnguye79">Github</a> for more detailed information.</p>
         <hr>
         <div class="filter-options">
-          <p>Title</p>
+          <p>Project Name</p>
           <input type="text" id="Name"/>
-          <p>Type</p>
-          <select id="Type">
+          <p>Topic</p>
+          <select id="Topic">
             <option value="">---</option>
-            <option value="topics">Topics</option>
-            <option value="codelangs">Coding Language</option>
+            <option value="analytics">Data Analytics</option>
+            <option value="uiux">UI/UX</option>
+            <option value="webdev">Web Development</option>
+            <option value="databases">Databases</option>
+          </select>
+          <p>Coding Language</p>
+          <select id="Coding-Lang">
+            <option value="">---</option>
+            <option value="python">Python</option>
+            <option value="r">R</option>
+            <option value="tableau">Tableau</option>
+            <option value="figma">Figma</option>
+            <option value="powerpoint">Powerpoint</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="mysql">MySQL</option>
           </select>
         </div>
 
         <div class="card-container">
-          <ul id="data_show"><!-- 'data.json' Placed Here --></ul>
+          <ul id="data_show"><!-- 'data.json' goes here! --></ul>
         </div>
       </div>
 
