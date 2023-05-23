@@ -2,49 +2,63 @@
 
 let data_global = null;
 
+/* 'Posts' Page Functions */
 function filterTitleList(array, filterInputValue) {
-    var filtered = [];
-    for (var i = 0; i < array.length; i++) {
+  var filtered = [];
+  for (var i = 0; i < array.length; i++) {
+    var unfiltered = array[i];
+    if (unfiltered.title.toLowerCase().includes(filterInputValue.toLowerCase())) {
+      filtered.push(unfiltered);
+    }
+  }
+  return filtered;
+}
+
+function filterTypeList(array, filterInputValue) {
+  var filtered = [];
+  for (var i = 0; i < array.length; i++) {
+    var unfiltered = array[i];
+    if (unfiltered.type.includes(filterInputValue)) {
+      filtered.push(unfiltered);
+    }
+  }
+  return filtered;
+}
+
+/* 'Portfolio' Page Functions */
+
+function filterNameList(array, filterInputValue) {
+  var filtered = [];
+  for (var i = 0; i < array.length; i++) {
+    var unfiltered = array[i];
+    if (unfiltered.name.toLowerCase().includes(filterInputValue.toLowerCase())) {
+      filtered.push(unfiltered);
+    }
+  }
+  return filtered;
+}
+
+function filterTopicList(array, filterInputValue) {
+  var filtered = [];
+  for (var i = 0; i < array.length; i++) {
+    var unfiltered = array[i];
+    if (unfiltered.topic.toLowerCase().includes(filterInputValue.toLowerCase())) {
+      filtered.push(unfiltered);
+    }
+  }
+  return filtered;
+}
+
+function filterCodeLangList(array, filterInputValue) {
+  var filtered = [];
+  for (var i = 0; i < array.length; i++) {
       var unfiltered = array[i];
-      if (unfiltered.title.toLowerCase().includes(filterInputValue.toLowerCase())) {
+      if (unfiltered['code-language'].includes(filterInputValue)) {
         filtered.push(unfiltered);
       }
     }
-    return filtered;
-  }
-
-  function filterTypeList(array, filterInputValue) {
-    var filtered = [];
-    for (var i = 0; i < array.length; i++) {
-      var unfiltered = array[i];
-      if (unfiltered.type.toLowerCase().includes(filterInputValue.toLowerCase())) {
-        filtered.push(unfiltered);
-      }
-    }
-    return filtered;
-  }
-
-  function filterTopicList(array, filterInputValue) {
-    var filtered = [];
-    for (var i = 0; i < array.length; i++) {
-      var unfiltered = array[i];
-      if (unfiltered.topic.toLowerCase().includes(filterInputValue.toLowerCase())) {
-        filtered.push(unfiltered);
-      }
-    }
-    return filtered;
-  }
-
-  function filterCodeLangList(array, filterInputValue) {
-    var filtered = [];
-    for (var i = 0; i < array.length; i++) {
-        var unfiltered = array['code-language'][i];
-        if (unfiltered.code-language.toLowerCase().includes(filterInputValue.toLowerCase())) {
-          filtered.push(unfiltered);
-        }
-      }
-    return filtered;
-  }
+  return filtered;
+}
 
 /* Rework to add fetch and catch to handle errors during asynchronous moments. Understand the concept!... */
 const fetchData = () => {
@@ -81,49 +95,48 @@ async function mainEvent() {
       displayList(data_global.posts);
     }
 
-
+    /* Event Listeners for Posts */
+    if (titleField) {
+    titleField.addEventListener("input", (event) => {
+        console.log("input", event.target.value);
+        const newList = filterTitleList(data_global.posts, event.target.value);
+        console.log("Loading New List...");
+        displayList(newList);
+    })
+    }
+    if (typeField) {
+    typeField.addEventListener("input", (event) => {
+        console.log("input", event.target.value);
+        const newList = filterTypeList(data_global.posts, event.target.value);
+        console.log("Loading New List...");
+        displayList(newList);
+    })
+    }
     /* Event Listeners for Portfolio */
+    if (nameField) {
     nameField.addEventListener("input", (event) => {
     console.log("input", event.target.value);
-    const newList = filterTitleList(data_global.portfolio, event.target.value);
+    const newList = filterNameList(data_global.portfolio, event.target.value);
     console.log("Loading New List...");
     displayList(newList);
     })
-
-    if (topicField) {
-      topicField.addEventListener("input", (event) => {
-        console.log("input", event.target.value);
-        const newList = filterTopicList(data_global.portfolio, event.target.value);
-        console.log("Loading New List...");
-        displayList(newList);
-      })
     }
-
+    if (topicField) {
+    topicField.addEventListener("input", (event) => {
+      console.log("input", event.target.value);
+      const newList = filterTopicList(data_global.portfolio, event.target.value);
+      console.log("Loading New List...");
+      displayList(newList);
+    })
+    }
+    if (codeLangField) {
     codeLangField.addEventListener("input", (event) => {
       console.log("input", event.target.value);
       const newList = filterCodeLangList(data_global.portfolio, event.target.value);
       console.log("Loading New List...");
       displayList(newList);
     })
-
-    /* Event Listeners for Posts */
-    if (titleField) {
-      titleField.addEventListener("input", (event) => {
-          console.log("input", event.target.value);
-          const newList = filterTitleList(data_global.posts, event.target.value);
-          console.log("Loading New List...");
-          displayList(newList);
-      })
-    }
-
-    if (typeField) {
-      typeField.addEventListener("input", (event) => {
-          console.log("input", event.target.value);
-          const newList = filterTypeList(data_global.posts, event.target.value);
-          console.log("Loading New List...");
-          displayList(newList);
-      })
-    }
+  }
 }
 
 /* Update display content here... */
@@ -138,9 +151,10 @@ const displayList = (data) => {
             <div class="card"><a href="info_page.html">
             <img src="${dataList.thumbnail}" title="${dataList.alt}">
             <div class="container">
-            <h4><b>${dataList.title}</b></h4>
+            <h4><b>${dataList.name}</b></h4>
             <p>${dataList.topic}</p>
             ${dataList.caption}
+            <p style="background-color: white">${dataList['code-language']}</p>
             </div>
             </a></div>
         </li>
