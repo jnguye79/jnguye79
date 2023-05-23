@@ -76,7 +76,7 @@
             "date-created": "2023-05-21",
             "title": "Washington Data Crash Files",
             "alt": "Data Analytics Level 4 Challenge for the Info Challenge 2023 @ University of Maryland, College Park",
-            "thumbnail": "",
+            "thumbnail": "images/Info_Challenge2023/Washington_Crash.jpg",
             "caption": "In this project, we took a look at crash data from Washington State and analyzed traffic patterns that occur throughout the entire state. Using Python to reverse geocode this information, we began formulating solutions to this potential problem (that is, minimizing crash throughout the state).",
             "description": [
                 "Starting off, this is prompt 1 of what happened at the event.",
@@ -100,7 +100,7 @@
             "date-created": "2023-05-21",
             "title": "iSchool Design Challenge",
             "alt": "One of three challenges from Makeathon 2023 Event @ University of Maryland, College Park",
-            "thumbnail": "",
+            "thumbnail": "images/Makeathon2023/iSchool_Design.jpg",
             "caption": "With the large number of student admissions into the College of Information Studies, it is essential that the website is maintained to have easy access to the many questions that Information Science students need. To do this, we address a few pain points when navigating the site and reworked components to build for easier usage for students.",
             "description": [
                 "Starting off, this is prompt 1 of what happened at the event.",
@@ -114,7 +114,7 @@
         },
         {
             "id": 3,
-            "topic": "Web Design",
+            "topic": "Web-Development",
             "code-language": [
                 "HTML",
                 "CSS",
@@ -126,7 +126,7 @@
             "date-created": "2023-05-21",
             "title": "Pokemon API Database",
             "alt": "Final Project for INST377 (Dynamic Web Applications) @ University of Maryland, College Park",
-            "thumbnail": "",
+            "thumbnail": "images/INST377-Final-Project/Pokemon_API.jpg",
             "caption": "A number of Pokemon websites share a plethora of information revolving around Pokemons. With large amount of Pokemon data, it can be hard to organize and even harder to navigate for such information. In this project, we handle the problems of searching for a specific pokemon; Using other filters such as type, physical characteristics, and movesets to handle finding a specific Pokemon.",
             "description": [
                 "Starting off, this is prompt 1 of what happened at the event.",
@@ -149,7 +149,7 @@
             "date-created": "2023-05-21",
             "title": "Game Console Database",
             "alt": "Final Project for INST327 (Database Design and Modeling) @ University of Maryland, College Park",
-            "thumbnail": "",
+            "thumbnail": "images/INST327-Final-Project/Console_ERD.png",
             "caption": "Throughout the years, gaming is revolutionized in a number of ways. A single game can be published for multiple consoles or can be exclusive to build competition. In this project, we work on constructing a small database comprised of a number of old consoles with a number of game titles.",
             "description": [
                 "Starting off, this is prompt 1 of what happened at the event.",
