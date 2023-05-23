@@ -148,15 +148,16 @@ const displayList = (data) => {
       const dataHTMLString = data.map((dataList) =>
       `
         <li>
-            <div class="card"><a href="info_page.html">
+          <div class="card">
             <img src="${dataList.thumbnail}" title="${dataList.alt}">
             <div class="container">
-            <h4><b>${dataList.name}</b></h4>
-            <p>${dataList.topic}</p>
-            ${dataList.caption}
-            <p style="background-color: white">${dataList['code-language']}</p>
+              <h4><b>${dataList.name}</b></h4>
+              <p>${dataList.topic}</p>
+              ${dataList.caption}
+              <p style="background-color: white">${dataList['code-language']}</p>
+              <a href="content.html?id=${dataList.id}">Read More</a>
             </div>
-            </a></div>
+          </div>
         </li>
       `
       ).join("");
@@ -165,14 +166,15 @@ const displayList = (data) => {
       const dataHTMLString = data.map((dataList) =>
       `
         <li>
-            <div class="card"><a href="info_page.html">
+          <div class="card">
             <img src="${dataList.thumbnail}" title="${dataList.alt}">
             <div class="container">
-            <h4><b>${dataList.title}</b></h4>
-            <p>${dataList.type}</p>
-            ${dataList.caption}
+              <h4><b>${dataList.title}</b></h4>
+              <p>${dataList.type}</p>
+              ${dataList.caption}
+              <a href="content.html?id=${dataList.id}">Read More</a>
             </div>
-            </a></div>
+          </div>
         </li>
       `
       ).join("");
