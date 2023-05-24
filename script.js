@@ -26,7 +26,6 @@ function filterTypeList(array, filterInputValue) {
 }
 
 /* 'Portfolio' Page Functions */
-
 function filterNameList(array, filterInputValue) {
   var filtered = [];
   for (var i = 0; i < array.length; i++) {
@@ -62,21 +61,21 @@ function filterCodeLangList(array, filterInputValue) {
 
 /* Rework to add fetch and catch to handle errors during asynchronous moments. Understand the concept!... */
 const fetchData = () => {
-    return fetch('data.json')
-       .then((response) => /*{
-        if (!response.ok) {
-          throw new Error('Error fetching data: ' + response.status);
-        }
-        return*/ response.json()
-      )
-      .then((data) => {
-        data_global = data;
-        return data;
-      })
-      /*.catch((error) => {
-        console.log('Error fetching data:', error);
-      });*/
-  };
+  return fetch('data.json')
+      .then((response) => /*{
+      if (!response.ok) {
+        throw new Error('Error fetching data: ' + response.status);
+      }
+      return*/ response.json()
+    )
+    .then((data) => {
+      data_global = data;
+      return data;
+    })
+    /*.catch((error) => {
+      console.log('Error fetching data:', error);
+    });*/
+};
 
 async function mainEvent() {
     const titleField = document.querySelector("#Title");
@@ -89,11 +88,22 @@ async function mainEvent() {
     console.log(currentPage);
 
     await fetchData();
+
     if (currentPage === '/jnguye79/portfolio.html') {
-      displayList(data_global.portfolio);
+      const urlParams = new URLSearchParams(window.location.search);
+      const contentId = urlParams.get('id');
+
+      if (contentId) {
+        displayContent(data_global.portfolio)
+      } else {
+        displayList(data_global.portfolio);
+      }
     } else if (currentPage === '/jnguye79/posts.html') {
       displayList(data_global.posts);
+    } else if (currentPage === '/jnguye79/content.html') {
+      displayContent(data)
     }
+
 
     /* Event Listeners for Posts */
     if (titleField) {
@@ -141,46 +151,77 @@ async function mainEvent() {
 
 /* Update display content here... */
 const displayList = (data) => {
-    console.log(data);
-    const currentPage = window.location.pathname;
+  console.log(data);
+  const currentPage = window.location.pathname;
 
-    if (currentPage == '/jnguye79/portfolio.html') {
-      const dataHTMLString = data.map((dataList) =>
-      `
-        <li>
-          <div class="card">
-            <img src="${dataList.thumbnail}" title="${dataList.alt}">
-            <div class="container">
-              <h4><b>${dataList.name}</b></h4>
-              <p>${dataList.topic}</p>
-              ${dataList.caption}
-              <p style="background-color: white">${dataList['code-language']}</p>
-              <a href="content.html?id=${dataList.id}">Read More</a>
-            </div>
-          </div>
-        </li>
-      `
-      ).join("");
-      data_show.innerHTML = dataHTMLString;
-    } else if (currentPage == '/jnguye79/posts.html') {
-      const dataHTMLString = data.map((dataList) =>
-      `
-        <li>
-          <div class="card">
-            <img src="${dataList.thumbnail}" title="${dataList.alt}">
-            <div class="container">
-              <h4><b>${dataList.title}</b></h4>
-              <p>${dataList.type}</p>
-              ${dataList.caption}
-              <a href="content.html?id=${dataList.id}">Read More</a>
-            </div>
-          </div>
-        </li>
-      `
-      ).join("");
-      data_show.innerHTML = dataHTMLString;
+  if (currentPage == '/jnguye79/portfolio.html') {
+    const dataHTMLString = data.map((dataList) =>
+    `
+      <li>
+        <div class="card"><a href="portfolio.html?id=${dataList.id}">
+          <img src="${dataList.thumbnail}" title="${dataList.alt}">
+          <div class="container">
+            <h4><b>${dataList.name}</b></h4>
+            <p>${dataList.topic}</p>
+            ${dataList.caption}
+            <p style="background-color: white">${dataList['code-language']}</p>
+            Read More
+          </div></a>
+        </div>
+      </li>
+    `
+    ).join("");
+    data_show.innerHTML = dataHTMLString;
+  } else if (currentPage == '/jnguye79/posts.html') {
+    const dataHTMLString = data.map((dataList) =>
+    `
+      <li>
+        <div class="card"><a href="posts.html?id=${dataList.id}">
+          <img src="${dataList.thumbnail}" title="${dataList.alt}">
+          <div class="container">
+            <h4><b>${dataList.title}</b></h4>
+            <p>${dataList.type}</p>
+            ${dataList.caption}
+            Read More
+          </div></a>
+        </div>
+      </li>
+    `
+    ).join("");
+    data_show.innerHTML = dataHTMLString;
+  }
+};
+
+const displayContent = (data) => {
+  // Get the post ID from the URL query parameter
+  console.log(data);
+  const urlParams = new URLSearchParams(window.location.search);
+  console.log(urlParams);
+  const contentId = parseInt(urlParams.get('id'));
+  console.log('This is the ID that was found: ' + contentId);
+
+  // Find the post with the matching ID
+  const post = data.find(post => post.id === contentId);
+  console.log(post);
+  
+
+
+  if (post) {
+    document.getElementById('filter-options').textContent = "";
+    document.getElementById('card-container').textContent = "";
+    document.getElementById('notice').innerHTML = `For more information, you can find the <a href="${post.links[0]}">github repository here!</a>`;
+
+    let dataHTMLString = ``;
+
+    for (let i = 0; i < post.description.length; i++) {
+      dataHTMLString += `<p>${post.description[i]}</p> <img src="${post.images[i]}"></img> `;
     }
-
-  };
+    
+    dataHTMLString = dataHTMLString.slice(0, -2);
+    content_show.innerHTML = dataHTMLString;
+  } else {
+    console.log('Post not found');
+  }
+}
 
   document.addEventListener("DOMContentLoaded", async () => mainEvent());

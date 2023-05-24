@@ -1,7 +1,7 @@
 {
     "posts": [
         {
-            "id": 1,
+            "id": 0,
             "type": "Events",
             "date-start": "2023-02-25",
             "date-end": "2023-03-04",
@@ -21,7 +21,7 @@
             "links": {}
         },
         {
-            "id": 2,
+            "id": 1,
             "type": "Events",
             "date-start": "2023-03-31",
             "date-end": "2023-04-01",
@@ -41,7 +41,7 @@
             "links": {}
         },
         {
-            "id": 3,
+            "id": 2,
             "type": "Events",
             "date-start": "2023-04-07",
             "date-end": "2023-04-09",
@@ -63,7 +63,7 @@
     ],
     "portfolio": [
         {
-            "id": 1,
+            "id": 0,
             "topic": "Data Analytics",
             "code-language": [
                 "Python",
@@ -86,10 +86,12 @@
             "images": [
 
             ],
-            "links": {}
+            "links": [
+                "https://github.com/jnguye79/IC2023"
+            ]
         },
         {
-            "id": 2,
+            "id": 1,
             "topic": "UI/UX",
             "code-language": [
                 "Figma",
@@ -113,7 +115,7 @@
             "links": {}
         },
         {
-            "id": 3,
+            "id": 2,
             "topic": "Web-Development",
             "code-language": [
                 "HTML",
@@ -137,10 +139,12 @@
             "images": [
 
             ],
-            "links": {}
+            "links": [
+                "https://github.com/jnguye79/INST377-Final-Project"
+            ]
         },
         {
-            "id": 4,
+            "id": 3,
             "topic": "Databases",
             "code-language": [
                 "MySQL"
@@ -160,7 +164,9 @@
             "images": [
 
             ],
-            "links": {}
+            "links": [
+                "https://github.com/jnguye79/MySQL/tree/main/INST327"
+            ]
         }
     ]
 }

@@ -24,9 +24,9 @@
       
       <div class="body">
         <img src="images/data.png" />
-        <p>For more information pertaining to each project, please check out my <a style="text-decoration: underline" href="https://github.com/jnguye79">Github</a> for more detailed information.</p>
+        <p id="notice">For more information pertaining to each project, please check out my <a style="text-decoration: underline" href="https://github.com/jnguye79">Github</a> for more detailed information.</p>
         <hr>
-        <div class="filter-options">
+        <div class="filter-options" id="filter-options">
           <p>Project Name</p>
           <input type="text" id="Name"/>
           <p>Topic</p>
@@ -52,9 +52,10 @@
           </select>
         </div>
 
-        <div class="card-container">
-          <ul id="data_show"><!-- 'data.json' goes here! --></ul>
+        <div class="card-container" id="card-container">
+          <ul id="data_show"><!-- data goes here! --></ul>
         </div>
+        <p id="content_show"><!-- data goes here! --></p>
       </div>
 
       <footer>
