@@ -99,7 +99,14 @@ async function mainEvent() {
         displayList(data_global.portfolio);
       }
     } else if (currentPage === '/jnguye79/posts.html') {
-      displayList(data_global.posts);
+      const urlParams = new URLSearchParams(window.location.search);
+      const contentId = urlParams.get('id');
+
+      if (contentId) {
+        displayContent(data_global.posts)
+      } else {
+        displayList(data_global.posts);
+      }
     } else if (currentPage === '/jnguye79/content.html') {
       displayContent(data)
     }
@@ -204,8 +211,6 @@ const displayContent = (data) => {
   const post = data.find(post => post.id === contentId);
   console.log(post);
   
-
-
   if (post) {
     document.getElementById('filter-options').textContent = "";
     document.getElementById('card-container').textContent = "";
@@ -214,7 +219,10 @@ const displayContent = (data) => {
     let dataHTMLString = ``;
 
     for (let i = 0; i < post.description.length; i++) {
-      dataHTMLString += `<p>${post.description[i]}</p> <img src="${post.images[i]}"></img> `;
+      dataHTMLString += `<p>${post.description[i]}</p> `;
+      if (post.images[i]) {
+        dataHTMLString += `<img src="${post.images[i]}"></img> `;
+      }
     }
     
     dataHTMLString = dataHTMLString.slice(0, -2);
