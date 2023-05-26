@@ -53,9 +53,12 @@ body {
 }
 
 .body {
-    margin-top: 50px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 100px;
+    /* margin-top: 50px;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 100px; */
     color: #51586f;
 }
 
@@ -133,10 +136,35 @@ body {
     padding-top: 3px;
 }
 
+/* Table-Content Properties */
+.data-content {
+    display: grid;
+    grid-template-columns: 25% 65%;
+    grid-gap: 20px;
+}
+
+.table-content {
+    position: fixed;
+    background-color: white;
+    padding: 10px;
+}
+
+.table-content h1 {
+    background-color: light;
+    margin-top: 0px;
+    padding: 10px;
+}
+
 /* Content-Show Properties */
-.content_show p {
+.content-show {
+    grid-column-start: 2;
+}
+
+.content-show p {
     text-align: center;
 }
+
+
 
 footer {
     background-color: #cdc9c9;

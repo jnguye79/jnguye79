@@ -216,8 +216,25 @@ const displayContent = (data) => {
     document.getElementById('card-container').textContent = "";
     document.getElementById('notice').innerHTML = `For more information, you can find the <a href="${post.links[0]}">github repository here!</a>`;
 
+
+    /* Table-Content */
+    table_content = document.getElementById('table-content');
+    let tocHTMLString = 
+      `
+        <h1>Table of Contents</h1>
+        <ul>
+          <li>About</li>
+          <li>Experience</li>
+          <li>What Was Learned</li>
+        </ul>
+      `;
+      
+    table_content.innerHTML = tocHTMLString;
+
+    /* Page-Content */
     let dataHTMLString = ``;
 
+    dataHTMLString += `<h1>${post.name}</h1>`
     for (let i = 0; i < post.description.length; i++) {
       dataHTMLString += `<p>${post.description[i]}</p> `;
       if (post.images[i]) {
@@ -226,6 +243,7 @@ const displayContent = (data) => {
     }
     
     dataHTMLString = dataHTMLString.slice(0, -2);
+    /* Remember to getElement of 'content_show' later to initialize it in HTML page as content-show. Same for 'data_show'.*/
     content_show.innerHTML = dataHTMLString;
   } else {
     console.log('Post not found');

@@ -10,6 +10,7 @@
             "alt": "Info Challenge 2023 by College of Information Studies @ University of Maryland, College Park - STAMP Center",
             "thumbnail": "images/Info_Challenge2023/Info_Challenge.jpg",
             "caption": "An event hosted for the Information Science majors (at the University of Maryland, College Park) which included a multitude of campuses such as Montgomery College, University of Maryland - Baltimore County, and the United States Naval Academy (USNA). This event hosted a number of Data Analytical, Cybersecurity, and UI/UX Design challenges. Info Challenge 2023 is sponsored by Ernest and Young (EY) and the United States Naval Academy (USNA).",
+            "table-of-contents": {},
             "description": [
                 "Starting off, this is prompt 1 of what happened at the event.",
                 "This is prompt 2 of what happened at the event.",
@@ -30,6 +31,7 @@
             "alt": "Makeathon 2023 by UXTerps @ University of Maryland, College Park - Hornbake Library",
             "thumbnail": "images/Makeathon2023/UXTerp_Makeathon.jpg",
             "caption": "An event hosted for the Design and Information majors to work under three different UI/UX challenges. These challenges were sponsored by Communicate Health, College of Information Studies, University of Maryland - Department of Computer Science, Iribe Initiative for Inclusion & Diversity in Computing, SEE (Student Entertainment Events), and Pepsi.",
+            "table-of-contents": {},
             "description": [
                 "Starting off, this is prompt 1 of what happened at the event.",
                 "This is prompt 2 of what happened at the event.",
@@ -50,6 +52,7 @@
             "alt": "BitCamp 2023 by University of Maryland, College Park - Xfinity Center",
             "thumbnail": "images/BitCamp2023/BitCamp.jpg",
             "caption": "An event hosted for candidates who are interested in coding. Bitcamp is an event where students compete, have fun, and find opportunities!",
+            "table-of-contents": {},
             "description": [
                 "Starting off, this is prompt 1 of what happened at the event.",
                 "This is prompt 2 of what happened at the event.",
@@ -78,10 +81,11 @@
             "alt": "Data Analytics Level 4 Challenge for the Info Challenge 2023 @ University of Maryland, College Park",
             "thumbnail": "images/Info_Challenge2023/Washington_Crash.jpg",
             "caption": "In this project, we took a look at crash data from Washington State and analyzed traffic patterns that occur throughout the entire state. Using Python to reverse geocode this information, we began formulating solutions to this potential problem (that is, minimizing crash throughout the state).",
+            "table-of-contents": {},
             "description": [
-                "Starting off, this is prompt 1 of what happened at the event.",
-                "This is prompt 2 of what happened at the event.",
-                "Lastly, this is prompt 3"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             ],
             "images": [
 
@@ -104,6 +108,7 @@
             "alt": "One of three challenges from Makeathon 2023 Event @ University of Maryland, College Park",
             "thumbnail": "images/Makeathon2023/iSchool_Design.jpg",
             "caption": "With the large number of student admissions into the College of Information Studies, it is essential that the website is maintained to have easy access to the many questions that Information Science students need. To do this, we address a few pain points when navigating the site and reworked components to build for easier usage for students.",
+            "table-of-contents": {},
             "description": [
                 "Starting off, this is prompt 1 of what happened at the event.",
                 "This is prompt 2 of what happened at the event.",
@@ -131,6 +136,7 @@
             "alt": "Final Project for INST377 (Dynamic Web Applications) @ University of Maryland, College Park",
             "thumbnail": "images/INST377-Final-Project/Pokemon_API.jpg",
             "caption": "A number of Pokemon websites share a plethora of information revolving around Pokemons. With large amount of Pokemon data, it can be hard to organize and even harder to navigate for such information. In this project, we handle the problems of searching for a specific pokemon; Using other filters such as type, physical characteristics, and movesets to handle finding a specific Pokemon.",
+            "table-of-contents": {},
             "description": [
                 "Starting off, this is prompt 1 of what happened at the event.",
                 "This is prompt 2 of what happened at the event.",
@@ -156,6 +162,7 @@
             "alt": "Final Project for INST327 (Database Design and Modeling) @ University of Maryland, College Park",
             "thumbnail": "images/INST327-Final-Project/Console_ERD.png",
             "caption": "Throughout the years, gaming is revolutionized in a number of ways. A single game can be published for multiple consoles or can be exclusive to build competition. In this project, we work on constructing a small database comprised of a number of old consoles with a number of game titles.",
+            "table-of-contents": {},
             "description": [
                 "Starting off, this is prompt 1 of what happened at the event.",
                 "This is prompt 2 of what happened at the event.",
