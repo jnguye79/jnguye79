@@ -1,6 +1,6 @@
 # Jimmy N. 👋
 
-Welcome to my page! To start off, my day-to-day basis consolidates around work, personal projects, and learning new skills. I hope to bring about specific contributions that can help the world feel safer, easier, and better. In the future, I plan to share resources (media/guides/tutorials) on how to easily use tech to help individuals with their daily lives. I hope you enjoy the rest of my profile page!
+Welcome to my page! To start off, my day-to-day basis consolidates around work, personal projects, and learning new skills. I hope to bring about specific contributions that can help the world feel safer, easier, and better. In the future, I plan to share resources (media/guides/tutorials) on how to easily use tech to help individuals. I hope you enjoy the rest of my profile page!
 
 - 🔭 I’m currently working on Dynamic Web Applications (INST377), Statistics for Information Science (INST314), Information User Needs and Assessment (INST352), Introduction to Computer Science (CS50x).
 - 🌱 I’m currently learning HTML/CSS/JS, R, Python, SQL, C.
