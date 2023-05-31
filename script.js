@@ -41,7 +41,7 @@ function filterTopicList(array, filterInputValue) {
   var filtered = [];
   for (var i = 0; i < array.length; i++) {
     var unfiltered = array[i];
-    if (unfiltered.topic.toLowerCase().includes(filterInputValue.toLowerCase())) {
+    if (unfiltered.topic.toLowerCase().includes(filterInputValue)) {
       filtered.push(unfiltered);
     }
   }
@@ -52,7 +52,7 @@ function filterCodeLangList(array, filterInputValue) {
   var filtered = [];
   for (var i = 0; i < array.length; i++) {
       var unfiltered = array[i];
-      if (unfiltered['code-language'].includes(filterInputValue)) {
+      if (unfiltered['code-language'].includes(filterInputValue.toLowerCase())) {
         filtered.push(unfiltered);
       }
     }

@@ -136,36 +136,36 @@ body {
     padding-top: 3px;
 }
 
-/* Table-Content Properties */
+/* Page Properties */
 .data-content {
     display: grid;
     grid-template-columns: 25% 65%;
     grid-gap: 20px;
 }
 
+/* Table-Content Properties */
 .table-content {
-    position: fixed;
     background-color: white;
-    padding: 10px;
+    max-width: 100%;
 }
 
 .table-content h1 {
-    background-color: light;
-    margin-top: 0px;
-    padding: 10px;
+    background-color: brown;
 }
 
+/* Page-Content Properties */
+.page-content {
+    grid-column: 2;
+}
 /* Content-Show Properties */
 .content-show {
-    grid-column-start: 2;
 }
 
 .content-show p {
     text-align: center;
 }
 
-
-
+/* Footer Properties */
 footer {
     background-color: #cdc9c9;
     display: flex;
