@@ -236,7 +236,7 @@ const displayContent = (data) => {
 
     /* Page-Content */
     let dataHTMLString = ``;
-    let section_headers = post['section-headers']
+    let section_headers = post['section-headers'];
 
     dataHTMLString += `<h1>${post.name}</h1>`
     dataHTMLString += `<img src="${post.cover}"></img>`;
