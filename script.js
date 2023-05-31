@@ -218,7 +218,7 @@ const displayContent = (data) => {
 
 
     /* Table-Content */
-    table_content = document.getElementById('table-content');
+    /* table_content = document.getElementById('table-content');
     let tocHTMLString = 
       `
         <h1>Table of Contents</h1>
@@ -229,14 +229,16 @@ const displayContent = (data) => {
         </ul>
       `;
       
-    table_content.innerHTML = tocHTMLString;
+    table_content.innerHTML = tocHTMLString; */
 
     /* Page-Content */
     let dataHTMLString = ``;
+    let section_headers = post['section-headers']
 
     dataHTMLString += `<h1>${post.name}</h1>`
+    dataHTMLString += `<img src="${post.cover}"></img>`;
     for (let i = 0; i < post.description.length; i++) {
-      dataHTMLString += `<p>${post.description[i]}</p> `;
+      dataHTMLString += `<h3>${section_headers[i]}</h3><p>${post.description[i]}</p> `;
       if (post.images[i]) {
         dataHTMLString += `<img src="${post.images[i]}"></img> `;
       }

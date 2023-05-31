@@ -13,8 +13,6 @@ a:hover {
     color: #51586f;
 }
 
-
-
 /* Header Properties */
 .header {
     background-color: #cdc9c9;
@@ -43,8 +41,6 @@ a:hover {
 .nav_links:hover {
     color: #51586f;
 }
-
-
 
 /* Body Properties */
 body {
@@ -138,31 +134,43 @@ body {
 
 /* Page Properties */
 .data-content {
-    display: grid;
-    grid-template-columns: 25% 65%;
-    grid-gap: 20px;
+    display: flex;
 }
 
-/* Table-Content Properties */
-.table-content {
+/* .table-content {
+    position: fixed;
     background-color: white;
     max-width: 100%;
 }
 
 .table-content h1 {
-    background-color: brown;
-}
+    background-color: light;
+    margin-top: 0px;
+    padding: 10px;
+} */
 
 /* Page-Content Properties */
 .page-content {
     grid-column: 2;
 }
 /* Content-Show Properties */
-.content-show {
+#content_show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#content_show img {
+    width: 75%;
+    height: 75%;
+    background-position: center;
 }
 
-.content-show p {
-    text-align: center;
+#content_show p {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 /* Footer Properties */
