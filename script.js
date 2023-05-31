@@ -241,7 +241,7 @@ const displayContent = (data) => {
     dataHTMLString += `<h1>${post.name}</h1>`
     dataHTMLString += `<img src="${post.cover}"></img>`;
     for (let i = 0; i < post.description.length; i++) {
-      dataHTMLString += `<h3>${section_headers[i]}</h3><p>${post.description[i]}</p> `;
+      dataHTMLString += `<h3>${section_headers[i]}</h3><p><t>&nbsp;&nbsp;&nbsp;&nbsp;${post.description[i]}</p> `;
       if (post.images[i]) {
         dataHTMLString += `<img src="${post.images[i]}"></img>`;
       }
