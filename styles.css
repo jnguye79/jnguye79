@@ -138,12 +138,10 @@ body {
 
 /* Table-Content Properties */
 .data-content {
-    display: grid;
-    grid-template-columns: 25% 65%;
-    grid-gap: 20px;
+    display: flex;
 }
 
-.table-content {
+/* .table-content {
     position: fixed;
     background-color: white;
     padding: 10px;
@@ -153,19 +151,29 @@ body {
     background-color: light;
     margin-top: 0px;
     padding: 10px;
-}
+} */
 
 /* Content-Show Properties */
-.content-show {
-    grid-column-start: 2;
+#content_show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#content_show img {
+    width: 75%;
+    height: 75%;
+    background-position: center;
 }
 
-.content-show p {
-    text-align: center;
+#content_show p {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
-
-
+/* Footer Properties */
 footer {
     background-color: #cdc9c9;
     display: flex;
