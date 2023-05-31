@@ -200,6 +200,24 @@ footer {
     .header {
         height: 100px;
     }
+
+    .body {
+        padding: 25px;
+    }
+
+    .page-content {
+        max-width: 100%;
+    }
+
+    #content_show img {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+    }
+
+    #content_show p {
+        padding: 0px;
+    }
     .nav_links {
         /* Navigation bar will be edited at a later date... */
     }
