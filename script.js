@@ -204,7 +204,7 @@ const displayContent = (data) => {
   console.log(data);
   const urlParams = new URLSearchParams(window.location.search);
   console.log(urlParams);
-  const contentId = parseInt(urlParams.get('id'));
+  const contentId = Number(urlParams.get('id'));
   console.log('This is the ID that was found: ' + contentId);
 
   // Find the post with the matching ID
@@ -215,6 +215,9 @@ const displayContent = (data) => {
     document.getElementById('filter-options').textContent = "";
     document.getElementById('card-container').textContent = "";
     document.getElementById('notice').innerHTML = `For more information, you can find the <a href="${post.links[0]}">github repository here!</a>`;
+    if (post.links[1]) {
+      document.getElementById('notice').innerHTML += ` You can also find the <a href="${post.links[1]}">relevant post here!</a>`;
+    }
 
 
     /* Table-Content */
@@ -240,7 +243,7 @@ const displayContent = (data) => {
     for (let i = 0; i < post.description.length; i++) {
       dataHTMLString += `<h3>${section_headers[i]}</h3><p>${post.description[i]}</p> `;
       if (post.images[i]) {
-        dataHTMLString += `<img src="${post.images[i]}"></img> `;
+        dataHTMLString += `<img src="${post.images[i]}"></img>`;
       }
     }
     
