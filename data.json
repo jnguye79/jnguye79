@@ -145,8 +145,15 @@
             "thumbnail": "images/INST377-Final-Project/Pokemon_API.jpg",
             "caption": "A number of Pokemon websites share a plethora of information revolving around Pokemons. With large amount of Pokemon data, it can be hard to organize and even harder to navigate for such information. In this project, we handle the problems of searching for a specific pokemon; Using other filters such as type, physical characteristics, and movesets to handle finding a specific Pokemon.",
             "table-of-contents": {},
+            "cover": "images/Makeathon2023/iSchool_Portfolio_Cover.jpg",
+            "section-headers": [
+                "Pokemon Filters",
+                "What We Can Do",
+                "Results",
+                "Future Considerations + Lessons Learned"
+            ],
             "description": [
-                "Starting off, this is prompt 1 of what happened at the event.",
+                "A number of Pokemon websites share a plethora of information revolving around Pokemons. With large amount of Pokemon data, it can be hard to organize and even harder to navigate for such information. In this project, we handle the problems of searching for a specific pokemon; Using other filters such as type, physical characteristics, and movesets to handle finding a specific Pokemon.",
                 "This is prompt 2 of what happened at the event.",
                 "Lastly, this is prompt 3"
             ],
