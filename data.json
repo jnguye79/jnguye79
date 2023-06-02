@@ -109,24 +109,56 @@
             "thumbnail": "images/Makeathon2023/iSchool_Design.jpg",
             "caption": "With the large number of student admissions into the College of Information Studies, it is essential that the website is maintained to have easy access to the many questions that Information Science students need. To do this, we address a few pain points when navigating the site and reworked components to build for easier usage for students.",
             "table-of-contents": {},
-            "cover": "images/Makeathon2023/iSchool_Portfolio_Cover.jpg",
+            "images": [
+
+            ],
+            "gallery": [
+                "images/Makeathon2023/iSchool_Portfolio_Cover.jpg",
+                "images/Makeathon2023/iSchool_The_Pain_Point.jpg",
+                "images/Makeathon2023/iSchool_Thought_Process.jpg",
+                "images/Makeathon2023/iSchool_Final_Product.jpg"
+            ],
             "section-headers": [
                 "The Pain Point",
                 "Through the Lense of an Info Science Student",
                 "Resulting Factor",
                 "Future Considerations + Lessons Learned"
             ],
-            "description": [
-                "With the large number of student admissions into the College of Information Studies, it is essential that the website is maintained to have easy access to the many questions that Information Science students need. To do this, we address a few pain points when navigating the site and reworked components to build for easier usage for students. Starting off, we need to identify these pain points. As addressed by the College of Information Studies, we could look into certain pain points of the website. More specifically, we can find locations on the website where information does not flow smoothly into other clusters of information that might be important. Networking is also a broad term where the department wants to resolve as well. In this project, we will develop more options on how to address a certain pain point, as well as how to navigate situations of networking in the online space.",
-                "As an Information Science student, it is important that the information required is purposefully clustered well together to handle multiple questions that might arise from one question. First off, we decided to brainstorm from a student's perspective. We realized that there are about three major goals for a student at the College of Information Studies: Complete Major, Obtain a Job Role, and Search for Community. For the 'Complete Major' goal, we realized that the department does an amazing job at handling how to help students hit their goal mark through the usage of counseling sessions. For the second goal (Obtain a Job Role), we asked the question of 'What type of job roles can I apply for my major?'. Fortunately, the College of Information Studies does have a page which shares a list of job roles that students can look forward to apply to. From there, we introduced the question of 'What stuff should I be doing to be prepared for such role?'. We realized that this pain point has not been addressed for a student in or planning to enter the College of Information Studies. There was a list of jobs roles that a student in the major can apply to, but what exact skills, courses, events, and clubs should students be taking a look at. As the fastest growing program at the University of Maryland - College Park campus, how can we deliver to students the future jobs that they can see themselves in. This is the problem that we plan to solve. As for the last goal (Searching for community), we realized there is a page of listed organizations online that is an amazing resource for students. To build onto the current page, we do have a slight input on how to improve the SEO of the page (which we will discuss after this).",
-                "The results were exceptional (link to post here and on LinkedIn)! Our resulting format (as shown below) solved the problems that a newly student admitting into the major might ask. For each major, we specifically identified a number of job roles that pertain to each major. We created a page that addressed the courses that should be taken, the clubs and events that students should look forward to, and the skills that you should/will learn. Additionally, there is a sample resume located at the bottom of the page to assist students on formulating their personal resume. A number of honorable mentions (<a href='https://www.linkedin.com/in/claudia-aguilar-26313a20a'>Claudia Aguilar</a> and <a href='https://www.linkedin.com/in/omena-a-8b44b51a3/'>Omena Aboagye</a>) for designing the page extremely well and coming up with the idea together.",
-                "As far as future considerations go, we realized (as well as the judges) that the filter display that we currently have would not be efficient for a student. A drop-down menu with a collection of jobs may be too long and can be a hassle for future users. As so, we realized that it was in our best interest to adapt a more acceptable filtering system with keywords and more filtering options in order to scour through the list more quickly. From this project, I learned a number of things that I would like to mention. For this project, I realized that it was important to start small. The reason to start on small plans because they are much more feasible. This is a strong point that I played on my presentation which you can find out more about <a href='http://jnguye79.github.io/jnguye79/posts.html?id=1'>here!</a> Another thing to mention is that it is extremely important to build off of what has already been developed. The College of Information Studies here at University of Maryland already has a running page with a plethora of information organized. It is very important that we build off of previous developments instead of trying to create something completely new. With this idea, that was how we came up with most of our design for the page."
+            "content-0": [
+                "With the large number of student admissions into the College of Information Studies, it is essential that the website is maintained to have easy access to the many questions that Information Science students need. To do this, we address a few pain points when navigating the site and reworked components to build for easier usage for students.",
+                "Starting off, we need to identify these pain points.", 
+                "As addressed by the College of Information Studies, we could look into certain pain points of the website. More specifically, we can find locations on the website where information does not flow smoothly into other clusters of information that might be important. Networking is also a broad term where the department wants to resolve as well.",
+                "In this project, we will develop more options on how to address a certain pain point, as well as how to navigate situations of networking in the online space."
             ],
-            "images": [
-                "images/Makeathon2023/iSchool_The_Pain_Point.jpg",
-                "images/Makeathon2023/iSchool_Thought_Process.jpg",
-                "images/Makeathon2023/iSchool_Final_Product.jpg"
+            "content-1": [
+                "As an Information Science student, it is important that the information required is purposefully clustered well together to handle multiple questions that might arise from one question.",
+                "First off, we decided to brainstorm from a student's perspective. We realized that there are about three major goals for a student at the College of Information Studies: Complete Major, Obtain a Job Role, and Search for Community.",
+                "For the 'Complete Major' goal, we realized that the department does an amazing job at handling how to help students hit their goal mark through the usage of counseling sessions. For the second goal (Obtain a Job Role), we asked the question of 'What type of job roles can I apply for my major?'.", 
+                "Fortunately, the College of Information Studies does have a page which shares a list of job roles that students can look forward to apply to. From there, we introduced the question of 'What stuff should I be doing to be prepared for such role?'.", 
+                "We realized that this pain point has not been addressed for a student in or planning to enter the College of Information Studies.", 
+                "There was a list of jobs roles that a student in the major can apply to, but what exact skills, courses, events, and clubs should students be taking a look at. As the fastest growing program at the University of Maryland - College Park campus, how can we deliver to students the future jobs that they can see themselves in.", 
+                "This is the problem that we plan to solve.", 
+                "As for the last goal (Searching for community), we realized there is a page of listed organizations online that is an amazing resource for students. To build onto the current page, we do have a slight input on how to improve the SEO of the page (which we will discuss after this)."
+
             ],
+            "content-2": [
+                "The results were exceptional (link to post <a href='http://jnguye79.github.io/jnguye79/posts.html?id=1'>here</a> and on <a href=''>LinkedIn</a>)!", 
+                "Our resulting format (as shown below) solved the problems that a newly student admitting into the major might ask. For each major, we specifically identified a number of job roles that pertain to each major. We created a page that addressed the courses that should be taken, the clubs and events that students should look forward to, and the skills that you should/will learn.", 
+                "Additionally, there is a sample resume located at the bottom of the page to assist students on formulating their personal resume.", 
+                "A number of honorable mentions (<a href='https://www.linkedin.com/in/claudia-aguilar-26313a20a'>Claudia Aguilar</a> and <a href='https://www.linkedin.com/in/omena-a-8b44b51a3/'>Omena Aboagye</a>) for designing the page extremely well and coming up with the idea together."
+
+            ],
+            "content-3": [
+                "As far as future considerations go, we realized (as well as the judges) that the filter display that we currently have would not be efficient for a student. A drop-down menu with a collection of jobs may be too long and can be a hassle for future users.", 
+                "As so, we realized that it was in our best interest to adapt a more acceptable filtering system with keywords and more filtering options in order to scour through the list more quickly.", 
+                "From this project, I learned a number of things that I would like to mention.", 
+                "For this project, I realized that it was important to start small. The reason to start on small plans because they are much more feasible. This is a strong point that I played on my presentation which you can find out more about <a href='http://jnguye79.github.io/jnguye79/posts.html?id=1'>here!</a>", 
+                "Another thing to mention is that it is extremely important to build off of what has already been developed. The College of Information Studies here at University of Maryland already has a running page with a plethora of information organized. It is very important that we build off of previous developments instead of trying to create something completely new.", 
+                "With this idea, that was how we came up with most of our design for the page."
+
+            ],
+            "content-4": [],
+            "content-5": [],
             "links": [
                 "https://github.com/jnguye79/Makeathon2023",
                 "https://jnguye79.github.io/jnguye79/posts.html?id=1"
@@ -157,8 +189,27 @@
                 "Results",
                 "Future Considerations + Lessons Learned"
             ],
+            "content-0": [
+                "A number of Pokemon websites share a plethora of information revolving around Pokemons. With large amount of Pokemon data, it can be hard to organize and even harder to navigate for such information.", 
+                "In this project, we handle the problems of searching for a specific pokemon; Through the usage of other filters such as type, physical characteristics, and movesets to handle finding a specific Pokemon.",
+                "If you're a Pokemon fan, you might know that---"
+            ],
+            "content-1": [
+
+            ],
+            "content-2": [
+
+            ],
+            "content-3": [
+                ""
+            ],
+            "content-4": [
+
+            ],
+            "content-5": [
+
+            ],
             "description": [
-                "A number of Pokemon websites share a plethora of information revolving around Pokemons. With large amount of Pokemon data, it can be hard to organize and even harder to navigate for such information. In this project, we handle the problems of searching for a specific pokemon; Using other filters such as type, physical characteristics, and movesets to handle finding a specific Pokemon.",
                 "This is prompt 2 of what happened at the event.",
                 "Lastly, this is prompt 3"
             ],
@@ -194,6 +245,59 @@
             "links": [
                 "https://github.com/jnguye79/MySQL/tree/main/INST327"
             ]
+        },
+        {
+            "id": 4,
+            "topic": "Web-Development",
+            "code-language": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Markdown"
+            ],
+            "date-start": "2023-05-01",
+            "date-end": {},
+            "date-created": "2023-06-01",
+            "name": "Portfolio (New)",
+            "alt": "Work Portfolio for Jimmy Nguyen. This is an ongoing project that will be continuously developed upon",
+            "thumbnail": "images/Portfolio/no_image.png",
+            "caption": "This is a portfolio consisting of the development of the page, as well as the learning experience from each session. In this project, I plan to share tips and tricks on building out your portfolio in the 'Information Tech' field. Hopefully, these contributions will be helpful to those who find it.",
+            "table-of-contents": {},
+            "images": [
+
+            ],
+            "gallery": [
+                
+            ],
+            "section-headers": [
+                "Experiencing the Learning Curve",
+                "Branching out onto Personal Projects",
+                "Academia is Pricey"
+            ],
+            "content-0": [
+
+            ],
+            "content-1": [
+
+            ],
+            "content-2": [
+                "As I progressed through my academic years, I began to hear more about the debate between public amenities of european countries and America.", 
+                "At first, I was shocked. There was free college in other countries? ",
+                "--- Talk about colleges becoming for corporate. Education quality hasn't changed, we're still learning the same things but the price got more expensive for it, which doesn't make sense",
+                "With the internet at its peak (and continuously growing exponentially), it should be a priority that at least, every upcoming individual growing up should easily have access to learning material easily",
+                "I've planned to create a small academic library or guides and tips for the education that I have learned in my years of college. --- Talk about how you hope it will help the world."
+            ],
+            "content-3": [
+                
+            ],
+            "content-4": [
+
+            ],
+            "content-5": [
+
+            ],
+
         }
+
     ]
 }
