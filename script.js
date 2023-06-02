@@ -162,6 +162,7 @@ const displayList = (data) => {
   const currentPage = window.location.pathname;
 
   if (currentPage == '/jnguye79/portfolio.html') {
+    const data_show = document.getElementById('data-show');
     const dataHTMLString = data.map((dataList) =>
     `
       <li>
@@ -180,6 +181,7 @@ const displayList = (data) => {
     ).join("");
     data_show.innerHTML = dataHTMLString;
   } else if (currentPage == '/jnguye79/posts.html') {
+    const data_show = document.getElementById('data-show');
     const dataHTMLString = data.map((dataList) =>
     `
       <li>
@@ -236,18 +238,34 @@ const displayContent = (data) => {
 
     /* Page-Content */
     let dataHTMLString = ``;
+    let content_show = document.getElementById('content-show');
     let section_headers = post['section-headers'];
+    const contentCount = 5;
 
     dataHTMLString += `<h1>${post.name}</h1>`
-    dataHTMLString += `<img src="${post.cover}"></img>`;
-    for (let i = 0; i < post.description.length; i++) {
-      dataHTMLString += `<h3>${section_headers[i]}</h3><p><t>&nbsp;&nbsp;&nbsp;&nbsp;${post.description[i]}</p> `;
-      if (post.images[i]) {
-        dataHTMLString += `<img src="${post.images[i]}"></img>`;
+    /* Page-Content -> Gallery */
+    if (post.cover) {
+      dataHTMLString += `<img src="${post.cover}"></img>`;
+    }
+
+    /* Page-Content -> Content */
+    for (let i = 0; i <= contentCount; i++) {
+      let contentList = `content-${i}`;
+      let contentItems = post[contentList];
+      console.log(contentItems);
+
+      if (contentItems && (contentItems.length > 0) ) {
+        dataHTMLString += `<h3>${section_headers[i]}</h3>`;
+
+        for (let j = 0; j < contentItems.length; j++) {
+          dataHTMLString += `<p>&nbsp;&nbsp;&nbsp;&nbsp;${contentItems[j]}</p>`;
+        }
       }
+
     }
     
     dataHTMLString = dataHTMLString.slice(0, -2);
+    console.log(dataHTMLString);
     /* Remember to getElement of 'content_show' later to initialize it in HTML page as content-show. Same for 'data_show'.*/
     content_show.innerHTML = dataHTMLString;
   } else {
