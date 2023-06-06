@@ -4,7 +4,7 @@ Welcome to my page! To start off, my day-to-day basis consolidates around work, 
 
 - 🔭 I’m currently working on Introduction to Computer Science (CS50x), and my portfolio which you can find out more <a href="https://jnguye79.github.io/jnguye79/">here</a>!
 - 🌱 I’m currently learning HTML/CSS/JS, Python, SQL, C.
-- 👯 I’m looking to collaborate on making an educational platform for people to learn for free!
+- 👯 I’m looking to collaborate on making an educational platform for people to learn hard concepts. How we differentiate is through simplification! Make hard concepts a breeze to understand. (Currently only an idea)
 - 🤔 I’m looking for help with UI/UX components on my web-page. Thank you <a href="https://www.linkedin.com/in/claudia-aguilar-26313a20a">Claudia</a> for sharing your tips and tricks!
 - 💬 Ask me about: What certains games I play, what is important in the development of AI, what languages I use and how they have helped me.
 - 📫 How to reach me: jnguye79@gmail.com
