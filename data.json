@@ -80,20 +80,33 @@
             "name": "Washington Data Crash Files",
             "alt": "Data Analytics Level 4 Challenge for the Info Challenge 2023 @ University of Maryland, College Park",
             "caption": "In this project, we took a look at crash data from Washington State and analyzed traffic patterns that occur throughout the entire state. Using Python to reverse geocode this information, we began formulating solutions to this potential problem (that is, minimizing crash throughout the state).",
+            "links": [
+                "https://github.com/jnguye79/IC2023"
+            ],
             "table-of-contents": {},
             "gallery": [
                 "images/Info_Challenge2023/Washington_Crash.jpg"
             ],
-            "description": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "section-headers": [
+                ""
             ],
-            "images": [
+            "content-0": [
 
             ],
-            "links": [
-                "https://github.com/jnguye79/IC2023"
+            "content-1": [
+
+            ],
+            "content-2": [
+
+            ],
+            "content-3": [
+
+            ],
+            "content-4": [
+
+            ],
+            "content-5": [
+
             ]
         },
         {
@@ -109,6 +122,10 @@
             "name": "iSchool Design Challenge",
             "alt": "One of three challenges from Makeathon 2023 Event @ University of Maryland, College Park",
             "caption": "With the large number of student admissions into the College of Information Studies, it is essential that the website is maintained to have easy access to the many questions that Information Science students need. To do this, we address a few pain points when navigating the site and reworked components to build for easier usage for students.",
+            "links": [
+                "https://github.com/jnguye79/Makeathon2023",
+                "https://jnguye79.github.io/jnguye79/posts.html?id=1"
+            ],
             "table-of-contents": {},
             "gallery": [
                 "images/Makeathon2023/iSchool_Design.jpg",
@@ -156,11 +173,11 @@
                 "With this idea, that was how we came up with most of our design for the page."
 
             ],
-            "content-4": [],
-            "content-5": [],
-            "links": [
-                "https://github.com/jnguye79/Makeathon2023",
-                "https://jnguye79.github.io/jnguye79/posts.html?id=1"
+            "content-4": [
+
+            ],
+            "content-5": [
+
             ]
         },
         {
@@ -179,6 +196,9 @@
             "name": "Pokemon API Database",
             "alt": "Final Project for INST377 (Dynamic Web Applications) @ University of Maryland, College Park",
             "caption": "A number of Pokemon websites share a plethora of information revolving around Pokemons. With large amount of Pokemon data, it can be hard to organize and even harder to navigate for such information. In this project, we handle the problems of searching for a specific pokemon; Using other filters such as type, physical characteristics, and movesets to handle finding a specific Pokemon.",
+            "links": [
+                "https://github.com/jnguye79/INST377-Final-Project"
+            ],
             "table-of-contents": {},
             "gallery": [
                 "images/INST377-Final-Project/Pokemon_API.jpg"
@@ -201,7 +221,7 @@
                 "From these topics, I continued to learn about API's and begun to take advantage of the localStorage.",
                 "A huge thanks to my partner <a href='https://www.linkedin.com/in/anthony-capasso-813551234/'>Anthony Capasso</a> for setting up the localStorage process and the <a href='https://michalsnik.github.io/aos/'>AOS JS Library</a>.",
                 "Lastly, the page is mostly comprised of a looping refresher that reloads HTML for each search query. 'Text Inputs' reinjected HTML per each new letter input and 'Category Inputs' reinjected HTML per each category.",
-                "As for the results, you can see a screenshot of the image below. Click <a href=''>here</a> for the page."
+                "As for the results, you can see a screenshot of the image below. Click <a href='https://jnguye79.github.io/INST377-Final-Project/'>here</a> for the page."
             ],
             "content-2": [
                 "With this final project for INST377 (Dynamic Web Applications), my partner and I learned numerous topics of JavaScript. It was an incredible experience to learn all of this within a semester under Professor Leitch's guidance.",
@@ -216,10 +236,8 @@
             ],
             "content-5": [
 
-            ],
-            "links": [
-                "https://github.com/jnguye79/INST377-Final-Project"
             ]
+
         },
         {
             "id": 3,
@@ -233,21 +251,32 @@
             "name": "Game Console Database",
             "alt": "Final Project for INST327 (Database Design and Modeling) @ University of Maryland, College Park",
             "caption": "Throughout the years, gaming is revolutionized in a number of ways. A single game can be published for multiple consoles or can be exclusive to build competition. In this project, we work on constructing a small database comprised of a number of old consoles with a number of game titles.",
+            "links": [
+                "https://github.com/jnguye79/MySQL/tree/main/INST327"
+            ],
             "table-of-contents": {},
             "gallery": [
-                "images/INST327-Final-Project/Console_ERD.png"
+                "images/INST327-Final-Project/Console_ERD.png",
+                "images/INST327-Final-Project/INST377_Views_Queries.png"
             ],
             "section-headers": [
-
+                "The Revolution of Consoles",
+                "A Small Replicate",
+                "Accomplishments + Learning Points"
             ],
             "content-0": [
-
+                "Throughout the years, gaming is revolutionized in a number of ways. We went from small visual bits with their own orchestrated bit music to what is now, 4k visually qualities with majestical orchestrations.",
+                "These games that primarily used to be found on a floopy disk slowly began to find themselves running on different consoles. These days, you can find <a href='https://www.xbox.com/en-US'>Xbox</a> and <a href='https://www.playstation.com/en-us/'>Playstation</a> compete for exclusivity towards their consoles by labeling games exclusive for each console.",
+                "In this project, we work on constructing a small database comprised of a number of old consoles with a number of game titles. This project simulates only a small portion of what is now an ever-growing genre."
             ],
             "content-1": [
-
+                "Inserting data into an excel sheet can be very mundane and repetitive. The reason why we chose to only replicate a small portion of this extremely large and complex database is to bring our skills to the test.",
+                "In this project, my team and I prioritized testing our skill that we learned in class. These concepts are ER (Entity-Relational) diagrams (visual), normalization (organization to reduce redundancy), indexing (search optimizations + joining tables), integrity (primary + foreign keys concepts). I will update this post to talk about these more in the future.",
+                "Our team also had the chance to work on views/queries. These views/queries are built to specifically allow a separate visual to different departments and positions within the work environment.", 
+                "A great example is that the financial department in a company may only require information pertaining towards a company sales but the retail department may require an inventory database as well as the daily sales to cross-reference and check."
             ],
             "content-2": [
-
+                "There's a <a href='https://github.com/jnguye79/MySQL/blob/main/INST327/Final%20Project/Final%20Project.pdf'>PDF</a> file that our team finalized for this project. I highly recommend anyone interested in the project to take a look at that as it does a great job at concluding our work. Additionally, I want to give a big thanks to <a href='https://www.linkedin.com/in/patrice-j-shumate/'>Patrice Shumate</a> and <a href='https://www.linkedin.com/in/benjamin-zheng-913133211/'>Benjamin Zheng</a> for their amazing contributions to the project. Without them, I wouldn't have been able to fill out the many relation tables that we had.</a>"
             ],
             "content-3": [
                 
@@ -257,9 +286,6 @@
             ],
             "content-5": [
 
-            ],
-            "links": [
-                "https://github.com/jnguye79/MySQL/tree/main/INST327"
             ]
         },
         {
@@ -274,9 +300,12 @@
             "date-start": "2023-05-01",
             "date-end": {},
             "date-created": "2023-06-01",
-            "name": "Portfolio (New)",
+            "name": "Portfolio",
             "alt": "Work Portfolio for Jimmy Nguyen. This is an ongoing project that will be continuously developed upon",
             "caption": "This is a portfolio consisting of the development of the page, as well as the learning experience from each session. In this project, I plan to share tips and tricks on building out your portfolio in the 'Information Tech' field. Hopefully, these contributions will be helpful to those who find it.",
+            "links": [
+                "https://github.com/jnguye79/jnguye79"
+            ],
             "table-of-contents": {},
             "gallery": [
                 "images/Portfolio/Portfolio_Cover.png"
