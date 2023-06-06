@@ -4,11 +4,11 @@ Welcome to my page! To start off, my day-to-day basis consolidates around work, 
 
 - 🔭 I’m currently working on Introduction to Computer Science (CS50x), and my portfolio which you can find out more <a href="https://jnguye79.github.io/jnguye79/">here!</a>.
 - 🌱 I’m currently learning HTML/CSS/JS, R, Python, SQL, C.
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
+- 👯 I’m looking to collaborate on making an educational platform for people to learn for free!
+- 🤔 I’m looking for help with UI/UX components on my web-page. Thank you <a href="https://www.linkedin.com/in/claudia-aguilar-26313a20a">Claudia</a> for sharing your tips and tricks!
 - 💬 Ask me about: What certains games I play, what is important in the development of AI, what languages I use and how they have helped me.
 - 📫 How to reach me: jnguye79@gmail.com
-- ⚡ Fun Question: With AI being at the forefront of controversial topics, what do you think we can do to enforce precautions around the development of AI. In doing so, how can we compete against other world powers who are also developing AI as well? Feel free to hit me up with a message and I'd love to chat with you about this topic!
+- ⚡ Fun Question: With AI being at the forefront of controversial topics, what do you think we can do to enforce precautions around the development of AI. In doing so, how can we compete against other world powers who are also developing AI as well?
 
 <p align="left">
   <a href="https://github.com/jnguye79?tab=followers">
