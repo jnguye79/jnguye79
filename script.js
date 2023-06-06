@@ -167,7 +167,7 @@ const displayList = (data) => {
     `
       <li>
         <div class="card"><a href="portfolio.html?id=${dataList.id}">
-          <img src="${dataList.thumbnail}" title="${dataList.alt}">
+          <img src="${dataList.gallery[0]}" title="${dataList.alt}">
           <div class="container">
             <h4><b>${dataList.name}</b></h4>
             <p>${dataList.topic}</p>
@@ -244,15 +244,14 @@ const displayContent = (data) => {
 
     dataHTMLString += `<h1>${post.name}</h1>`
     /* Page-Content -> Gallery */
-    if (post.cover) {
-      dataHTMLString += `<img src="${post.cover}"></img>`;
+    if (post.gallery) {
+      dataHTMLString += `<img src="${post.gallery[0]}"></img>`;
     }
 
     /* Page-Content -> Content */
     for (let i = 0; i <= contentCount; i++) {
       let contentList = `content-${i}`;
       let contentItems = post[contentList];
-      console.log(contentItems);
 
       if (contentItems && (contentItems.length > 0) ) {
         dataHTMLString += `<h3>${section_headers[i]}</h3>`;
@@ -264,8 +263,7 @@ const displayContent = (data) => {
 
     }
     
-    dataHTMLString = dataHTMLString.slice(0, -2);
-    console.log(dataHTMLString);
+    dataHTMLString = dataHTMLString.slice(0, -4);
     /* Remember to getElement of 'content_show' later to initialize it in HTML page as content-show. Same for 'data_show'.*/
     content_show.innerHTML = dataHTMLString;
   } else {

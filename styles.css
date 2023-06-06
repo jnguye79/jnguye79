@@ -50,10 +50,6 @@ body {
 .body {
     margin: 0 auto;
     max-width: 1200px;
-   /* padding: 100px;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px; */
     color: #51586f;
 }
 
@@ -166,6 +162,8 @@ body {
 }
 
 .content-show p {
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 /* Footer Properties */

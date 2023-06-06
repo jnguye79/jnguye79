@@ -79,9 +79,11 @@
             "date-created": "2023-05-21",
             "name": "Washington Data Crash Files",
             "alt": "Data Analytics Level 4 Challenge for the Info Challenge 2023 @ University of Maryland, College Park",
-            "thumbnail": "images/Info_Challenge2023/Washington_Crash.jpg",
             "caption": "In this project, we took a look at crash data from Washington State and analyzed traffic patterns that occur throughout the entire state. Using Python to reverse geocode this information, we began formulating solutions to this potential problem (that is, minimizing crash throughout the state).",
             "table-of-contents": {},
+            "gallery": [
+                "images/Info_Challenge2023/Washington_Crash.jpg"
+            ],
             "description": [
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -106,13 +108,10 @@
             "date-created": "2023-05-21",
             "name": "iSchool Design Challenge",
             "alt": "One of three challenges from Makeathon 2023 Event @ University of Maryland, College Park",
-            "thumbnail": "images/Makeathon2023/iSchool_Design.jpg",
             "caption": "With the large number of student admissions into the College of Information Studies, it is essential that the website is maintained to have easy access to the many questions that Information Science students need. To do this, we address a few pain points when navigating the site and reworked components to build for easier usage for students.",
             "table-of-contents": {},
-            "images": [
-
-            ],
             "gallery": [
+                "images/Makeathon2023/iSchool_Design.jpg",
                 "images/Makeathon2023/iSchool_Portfolio_Cover.jpg",
                 "images/Makeathon2023/iSchool_The_Pain_Point.jpg",
                 "images/Makeathon2023/iSchool_Thought_Process.jpg",
@@ -179,41 +178,43 @@
             "date-created": "2023-05-21",
             "name": "Pokemon API Database",
             "alt": "Final Project for INST377 (Dynamic Web Applications) @ University of Maryland, College Park",
-            "thumbnail": "images/INST377-Final-Project/Pokemon_API.jpg",
             "caption": "A number of Pokemon websites share a plethora of information revolving around Pokemons. With large amount of Pokemon data, it can be hard to organize and even harder to navigate for such information. In this project, we handle the problems of searching for a specific pokemon; Using other filters such as type, physical characteristics, and movesets to handle finding a specific Pokemon.",
             "table-of-contents": {},
-            "cover": "images/Makeathon2023/iSchool_Portfolio_Cover.jpg",
+            "gallery": [
+                "images/INST377-Final-Project/Pokemon_API.jpg"
+            ],
             "section-headers": [
                 "Pokemon Filters",
-                "What We Can Do",
-                "Results",
+                "What We Did + Results",
                 "Future Considerations + Lessons Learned"
             ],
             "content-0": [
-                "A number of Pokemon websites share a plethora of information revolving around Pokemons. With large amount of Pokemon data, it can be hard to organize and even harder to navigate for such information.", 
+                "A number of Pokemon websites share a plethora of information revolving around Pokemons. With large amount of Pokemon data, it can be hard to organize and even harder to navigate for such information.",
+                "If you're an avid Pokemon fan, you might know the name of your favorite Pokemon like the back of your hand. What if you were a newcomer, or a fan from way back then? You might not be able to remember at the top of your head that one Pokemon that you went on tons of adventures with.",
+                "If you try searching online, you'll be met with tons of encyclopedias such as <a href=''>this</a> or <a href=''>this</a> or even <a href=''>this!</a>. All these websites all do the same thing, organize Pokemon based on their generation!",
                 "In this project, we handle the problems of searching for a specific pokemon; Through the usage of other filters such as type, physical characteristics, and movesets to handle finding a specific Pokemon.",
-                "If you're a Pokemon fan, you might know that---"
+                "So if you remember a pokemon move that you use frequently (or any other characteristics featured on our webpage), you can filter using that attribute to find your Pokemon!"
             ],
             "content-1": [
-
+                "There was a lot to learn from this project (many thanks to <a href='https://ischool.umd.edu/directory/alex-leitch/'>Professor Leitch</a>).",
+                "Starting off, there was a ton of new introductory JavaScript concepts that I had to learn to implement such as 'async/await', 'promises', and 'fetch'. I will be sharing some more learning content about these topics at a later time.",
+                "From these topics, I continued to learn about API's and begun to take advantage of the localStorage.",
+                "A huge thanks to my partner <a href='https://www.linkedin.com/in/anthony-capasso-813551234/'>Anthony Capasso</a> for setting up the localStorage process and the <a href='https://michalsnik.github.io/aos/'>AOS JS Library</a>.",
+                "Lastly, the page is mostly comprised of a looping refresher that reloads HTML for each search query. 'Text Inputs' reinjected HTML per each new letter input and 'Category Inputs' reinjected HTML per each category.",
+                "As for the results, you can see a screenshot of the image below. Click <a href=''>here</a> for the page."
             ],
             "content-2": [
-
+                "With this final project for INST377 (Dynamic Web Applications), my partner and I learned numerous topics of JavaScript. It was an incredible experience to learn all of this within a semester under Professor Leitch's guidance.",
+                "This project has jumpstarted my desires to build my own portfolio (the current website that you are on!). With this portfolio, I continued to build onto my JavaScript by using JSON data to fill up my page. You can see how it has been progressing <a href=''>right here</a>.",
+                "As for further considerations, I realized that the UI/UX was not up to par as expected. If any changes were to be made in the future, I would most likely reference the layouts of the Pokemon websites discussed before."
             ],
             "content-3": [
-                ""
+            
             ],
             "content-4": [
 
             ],
             "content-5": [
-
-            ],
-            "description": [
-                "This is prompt 2 of what happened at the event.",
-                "Lastly, this is prompt 3"
-            ],
-            "images": [
 
             ],
             "links": [
@@ -231,15 +232,30 @@
             "date-created": "2023-05-21",
             "name": "Game Console Database",
             "alt": "Final Project for INST327 (Database Design and Modeling) @ University of Maryland, College Park",
-            "thumbnail": "images/INST327-Final-Project/Console_ERD.png",
             "caption": "Throughout the years, gaming is revolutionized in a number of ways. A single game can be published for multiple consoles or can be exclusive to build competition. In this project, we work on constructing a small database comprised of a number of old consoles with a number of game titles.",
             "table-of-contents": {},
-            "description": [
-                "Starting off, this is prompt 1 of what happened at the event.",
-                "This is prompt 2 of what happened at the event.",
-                "Lastly, this is prompt 3"
+            "gallery": [
+                "images/INST327-Final-Project/Console_ERD.png"
             ],
-            "images": [
+            "section-headers": [
+
+            ],
+            "content-0": [
+
+            ],
+            "content-1": [
+
+            ],
+            "content-2": [
+
+            ],
+            "content-3": [
+                
+            ],
+            "content-4": [
+
+            ],
+            "content-5": [
 
             ],
             "links": [
@@ -260,14 +276,10 @@
             "date-created": "2023-06-01",
             "name": "Portfolio (New)",
             "alt": "Work Portfolio for Jimmy Nguyen. This is an ongoing project that will be continuously developed upon",
-            "thumbnail": "images/Portfolio/no_image.png",
             "caption": "This is a portfolio consisting of the development of the page, as well as the learning experience from each session. In this project, I plan to share tips and tricks on building out your portfolio in the 'Information Tech' field. Hopefully, these contributions will be helpful to those who find it.",
             "table-of-contents": {},
-            "images": [
-
-            ],
             "gallery": [
-                
+                "images/Portfolio/Portfolio_Cover.png"
             ],
             "section-headers": [
                 "Experiencing the Learning Curve",
@@ -295,8 +307,7 @@
             ],
             "content-5": [
 
-            ],
-
+            ]
         }
 
     ]
