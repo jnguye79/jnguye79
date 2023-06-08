@@ -51,9 +51,11 @@ function filterTopicList(array, filterInputValue) {
 function filterCodeLangList(array, filterInputValue) {
   var filtered = [];
   for (var i = 0; i < array.length; i++) {
-      var unfiltered = array[i];
-      if (unfiltered['code-language'].includes(filterInputValue.toLowerCase())) {
-        filtered.push(unfiltered);
+      var unfiltered = array['code-language'];
+      for (let j = 0; j < unfiltered.length; j++) {
+        if (unfiltered[j].lowerCase.includes(filterInputValue.toLowerCase())) {
+          filtered.push(unfiltered);
+        }
       }
     }
   return filtered;
@@ -186,7 +188,7 @@ const displayList = (data) => {
     `
       <li>
         <div class="card"><a href="posts.html?id=${dataList.id}">
-          <img src="${dataList.thumbnail}" title="${dataList.alt}">
+          <img src="${dataList.gallery[0]}" title="${dataList.alt}">
           <div class="container">
             <h4><b>${dataList.title}</b></h4>
             <p>${dataList.type}</p>
