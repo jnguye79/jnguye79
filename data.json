@@ -8,18 +8,39 @@
             "date-created": "2023-05-15",
             "title": "Info Challenge 2023",
             "alt": "Info Challenge 2023 by College of Information Studies @ University of Maryland, College Park - STAMP Center",
-            "thumbnail": "images/Info_Challenge2023/Info_Challenge.jpg",
             "caption": "An event hosted for the Information Science majors (at the University of Maryland, College Park) which included a multitude of campuses such as Montgomery College, University of Maryland - Baltimore County, and the United States Naval Academy (USNA). This event hosted a number of Data Analytical, Cybersecurity, and UI/UX Design challenges. Info Challenge 2023 is sponsored by Ernest and Young (EY) and the United States Naval Academy (USNA).",
-            "table-of-contents": {},
-            "description": [
+            "links": [
+
+            ],
+            "table-of-contents": [
+                
+            ],
+            "gallery": [
+                "images/Info_Challenge2023/Info_Challenge.jpg"
+            ],
+            "section-headers":[
+
+            ],
+            "content-0": [
                 "Starting off, this is prompt 1 of what happened at the event.",
                 "This is prompt 2 of what happened at the event.",
                 "Lastly, this is prompt 3"
             ],
-            "images": [
+            "content-1": [
 
             ],
-            "links": {}
+            "content-2": [
+
+            ],
+            "content-3": [
+
+            ],
+            "content-4": [
+
+            ],
+            "content-5": [
+                
+            ]
         },
         {
             "id": 1,
@@ -29,18 +50,39 @@
             "date-created": "2023-05-19",
             "title": "Makeathon 2023",
             "alt": "Makeathon 2023 by UXTerps @ University of Maryland, College Park - Hornbake Library",
-            "thumbnail": "images/Makeathon2023/UXTerp_Makeathon.jpg",
             "caption": "An event hosted for the Design and Information majors to work under three different UI/UX challenges. These challenges were sponsored by Communicate Health, College of Information Studies, University of Maryland - Department of Computer Science, Iribe Initiative for Inclusion & Diversity in Computing, SEE (Student Entertainment Events), and Pepsi.",
-            "table-of-contents": {},
-            "description": [
+            "links": [
+
+            ],
+            "table-of-contents": [
+
+            ],
+            "gallery": [
+                "images/Makeathon2023/UXTerp_Makeathon.jpg"
+            ],
+            "section-headers":[
+
+            ],
+            "content-0": [
                 "Starting off, this is prompt 1 of what happened at the event.",
                 "This is prompt 2 of what happened at the event.",
                 "Lastly, this is prompt 3"
             ],
-            "images": [
-                
+            "content-1": [
+
             ],
-            "links": {}
+            "content-2": [
+
+            ],
+            "content-3": [
+
+            ],
+            "content-4": [
+
+            ],
+            "content-5": [
+                
+            ]
         },
         {
             "id": 2,
@@ -50,18 +92,40 @@
             "date-created": "2023-05-19",
             "title": "BitCamp 2023",
             "alt": "BitCamp 2023 by University of Maryland, College Park - Xfinity Center",
-            "thumbnail": "images/BitCamp2023/BitCamp.jpg",
             "caption": "An event hosted for candidates who are interested in coding. Bitcamp is an event where students compete, have fun, and find opportunities!",
-            "table-of-contents": {},
-            "description": [
+            "links": [
+
+            ],
+            "table-of-contents": [
+
+            ],
+            "gallery": [
+                "images/BitCamp2023/BitCamp.jpg"
+            ],
+            "section-headers":[
+
+            ],
+            "content-0": [
                 "Starting off, this is prompt 1 of what happened at the event.",
                 "This is prompt 2 of what happened at the event.",
                 "Lastly, this is prompt 3"
             ],
-            "images": [
-                
+            "content-1": [
+
             ],
-            "links": {}
+            "content-2": [
+
+            ],
+            "content-3": [
+
+            ],
+            "content-4": [
+
+            ],
+            "content-5": [
+
+            ]
+
         }
     ],
     "portfolio": [
@@ -94,9 +158,10 @@
             ],
             "section-headers": [
                 "A State Promise",
-                "Taking On New Skills - Geocoding",
+                "Taking On New Skills - Reverse Geocoding",
                 "Critical Analysis",
-                "Further Analysis"
+                "Further Analysis",
+                "Acknowledgements"
             ],
             "content-0": [
                 "The Washington Traffic Safety Commission (WTSC) is Washington’s designated State Highway Safety Office and with a numbers of partners, believes in the vision of '<a href='http://wtsc.wa.gov/wp-content/uploads/dlm_uploads/2022/11/WTSC_TZAP_FINAL_Nov-2022.pdf'>Target Zero</a>' and a future when there are no traffic fatalities or serious injuries on Washington roadways. Since the COVID-19 pandemic began in Spring 2020, Washington has experienced an unprecedented year-over-year increase in traffic fatalities.", 
@@ -104,16 +169,25 @@
                 "In this challenge, we will analyze Washington's traffic data geographically as well as logistically. We will address required deliverables and theoretically come up with solutions based on our data analysis."
             ],
             "content-1": [
-                
+                "Upon taking on this challenge, there were a number of obstacles that must be handled. As a team, we were presented with locational data in the form of coordinates. These coordinates must be reverse geocoded in order to interpret the data.",
+                "I found an <a href='https://towardsdatascience.com/reverse-geocoding-in-python-a915acf29eb6'>article</a> that helped out tremendously on reverse geocoding locational coordinates to return an address. Each coordinate was then converted into an address and put into a list.",
+                "The main problem is that each locational address came with some complications and minute differences that must be handled, with some coordinates having to result to no address. These addresses were substitute to zero.",
+                "As for visual representation, we used Tableau to get a visual understanding of clusters where crash accidents frequented."
             ],
             "content-2": [
-
+                "After analyzing the crash dataset using R and Tableau, we realized a number of important things. First off, crashes 'inside of a county' versus 'outside of a county' were ratio'ed to be 1:3. It was concluded that accidents generally occur more often (up to 3x more) outside of a location that a driver isn't acquainted with.",
+                "We also took a look at personal demographics of each specific crash. In this case, we compared crashes, median income, and crash per capita for the five most zipcodes with the most crashes.",
+                "When we took a look at geographical data, most of the crashes were specifically located within the two main cities in Washington (Seattle and Spoken) as well as state entryways (Portland).", 
+                "My partner, <a href='https://www.linkedin.com/in/anthony-capasso-813551234/'>Anthony Capasso</a>, discussed another nuance based his own interests. He realized that crashes on state entryways tend to be based around people entering through different states for the baseball games that occur in Seattle. A solution that he recommended was to allow for alternative transportation routes such as public busses in order to reduce the number of new visitors into the state.",
+                "Another point I realized is that analyzing a general work-life balance of most individuals in Seattle can be a way to help deter crashes. For example, 9AM and 5PM traffic can be better supervised due to more vehicles to get to and from work."
             ],
             "content-3": [
-
+                "After reflecting on the end of the event, we concluded that there were a number of areas that could be better refined. WIth more time, we would have broken down each city (more importantly Seattle) to differnt districts and specifically analyze traffic routes and crash persepctives located in each district.",
+                "Additionally, we could have determined other variables to compare such as comparing similar accident patterns at the same locations. This is a whole entire branch to uncover as each dataset had not taken into account to analyze. With more time, this point of concern may bring about change towards reducing crashes in Washington."
             ],
             "content-4": [
-
+                "A big thanks to the <a href='https://ischool.umd.edu/'>College of Information Studies</a> for hosting such an amazing event. Additional thanks to the <a href='https://www.usna.edu/homepage.php'>US Naval Academy</a> and <a href='https://www.ey.com/en_us'>Ernest & Young</a> (EY) for sponsoring this event.",
+                "I want to mention many thanks towards my two partners, <a href='https://www.linkedin.com/in/anthony-capasso-813551234/'>Anthony Capasso</a> and John Dutan for their amazing contribution and team energy. WIthout them, analyzing this data alone would be an impossible feat."
             ],
             "content-5": [
 
