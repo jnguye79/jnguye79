@@ -85,16 +85,26 @@
             ],
             "table-of-contents": {},
             "gallery": [
-                "images/Info_Challenge2023/Washington_Crash.jpg"
+                "images/Info_Challenge2023/L4/Washington_Crash.jpg",
+                "images/Info_Challenge2023/L4/L4_Data_Clean.png",
+                "images/Info_Challenge2023/L4/L4_Reverse_Geocode.png",
+                "images/Info_Challenge2023/L4/L4_Data_Analysis_1.png",
+                "images/Info_Challenge2023/L4/L4_Data_Analysis_2.png"
+
             ],
             "section-headers": [
-                ""
+                "A State Promise",
+                "Taking On New Skills - Geocoding",
+                "Critical Analysis",
+                "Further Analysis"
             ],
             "content-0": [
-
+                "The Washington Traffic Safety Commission (WTSC) is Washington’s designated State Highway Safety Office and with a numbers of partners, believes in the vision of '<a href='http://wtsc.wa.gov/wp-content/uploads/dlm_uploads/2022/11/WTSC_TZAP_FINAL_Nov-2022.pdf'>Target Zero</a>' and a future when there are no traffic fatalities or serious injuries on Washington roadways. Since the COVID-19 pandemic began in Spring 2020, Washington has experienced an unprecedented year-over-year increase in traffic fatalities.", 
+                "The WTSC manages traffic safety behavior programs which include heavy investments in media and outreach. Many of these efforts are intended for a statewide audience, and WTSC also support numerous local media and community outreach efforts.",
+                "In this challenge, we will analyze Washington's traffic data geographically as well as logistically. We will address required deliverables and theoretically come up with solutions based on our data analysis."
             ],
             "content-1": [
-
+                
             ],
             "content-2": [
 
