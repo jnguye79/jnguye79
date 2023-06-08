@@ -1,6 +1,6 @@
 # Jimmy N. 👋
 
-Welcome to my page! To start off, my day-to-day basis consolidates around work, personal projects, and learning new skills. I hope to bring about specific contributions that can help the world feel safer, easier, and better. In the future, I plan to share resources (media/guides/tutorials) to teach individuals how to code something small, something big, something important to you! I hope you enjoy your stay (on this page).
+Welcome to my page! To start off, my day-to-day basis consolidates around work, personal projects, and learning new skills. I hope to bring about specific contributions that can help the world feel safer, easier, and better. In the future, I plan to share resources (media/guides/tutorials) to teach individuals how to code something small, something big, something important to you! I hope you enjoy your stay.
 
 - 🔭 I’m currently working on Introduction to Computer Science (CS50x), and my portfolio which you can find out more <a href="https://jnguye79.github.io/jnguye79/">here</a>!
 - 🌱 I’m currently learning HTML/CSS/JS, Python, SQL, C.
