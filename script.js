@@ -244,7 +244,11 @@ const displayContent = (data) => {
     let section_headers = post['section-headers'];
     const contentCount = 5;
 
-    dataHTMLString += `<h1>${post.name}</h1>`
+    if (post.name) {
+      dataHTMLString += `<h1>${post.name}</h1>`;
+    } else {
+      dataHTMLString += `<h1>${post.title}</h1>`;
+    }
     /* Page-Content -> Gallery */
     if (post.gallery) {
       dataHTMLString += `<img src="${post.gallery[0]}"></img>`;

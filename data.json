@@ -10,7 +10,7 @@
             "alt": "Info Challenge 2023 by College of Information Studies @ University of Maryland, College Park - STAMP Center",
             "caption": "An event hosted for the Information Science majors (at the University of Maryland, College Park) which included a multitude of campuses such as Montgomery College, University of Maryland - Baltimore County, and the United States Naval Academy (USNA). This event hosted a number of Data Analytical, Cybersecurity, and UI/UX Design challenges. Info Challenge 2023 is sponsored by Ernest and Young (EY) and the United States Naval Academy (USNA).",
             "links": [
-
+                "https://github.com/jnguye79/IC2023"
             ],
             "table-of-contents": [
                 
@@ -19,18 +19,24 @@
                 "images/Info_Challenge2023/Info_Challenge.jpg"
             ],
             "section-headers":[
-
+                "The Start of a Great Event",
+                "Presentational Conclusions",
+                "Many Thanks"
             ],
             "content-0": [
-                "Starting off, this is prompt 1 of what happened at the event.",
-                "This is prompt 2 of what happened at the event.",
-                "Lastly, this is prompt 3"
+                "At the end of February, I had the opportunity to attend the Info Challenge event hosted at the University of Maryland, College Park campus.",
+                "At the event, there were a number of workshops to attend. Out of the many great workshops, there were two memorable workshops which greatly attributed towards my challenge.", 
+                "One was the Python workshop, which explained how to use geopy to reverse-geocode our coordinates into addresses. The Python course also taught us how to extrapolate the data further to guess futuristic probabilities which helped our work as well. The other workshop was the Tableau workshop, which gave us the opportunity to scour our dataset geographically to perform a visual analysis."
             ],
             "content-1": [
-
+                "After reviewing the presentational portion of the event, I believe that there was a lot to learn from this experience. I wanted to share a few keynote tips for others to use down below:",
+                "<ol><li>It's important to greet everyone in the meeting. Sharing your enthusiam toward the project is also beneficial as it shares a ton of great qualities about yourself and your team.</li><li>Following that, be prepared for questions. Think about various weakpoints/controversial points in your problem that you will encounter in the discussion.</li><li>Practice, practice, practice your speech. A tip shared to me a long time ago is that for every minute you spend presenting, make sure to spend 30 mins to an hour for each minute practicing."
             ],
             "content-2": [
-
+                "Many thanks to the department staffs from the <a href=''>College of Information Studies</a>, <a href=''>Ernest and Youngst (EY)</a>, as well as the <a href=''>United States Naval Academy (USNA)</a> for hosting an amazing event.",
+                "I want to share a list of organizations who helped provide a challenge design for the students. A big thanks to those who offered relevant real-world challenges for us to tackle:",
+                "<ul><li><a href=''>Washington Traffic Safety Commissions (WTSC)</a></li><li><a href=''>CrisisFACTS Initiative</a></li><li><a href=''>University of Maryland, Office of International Affairs - Global Learning Initiatives</a></li><li><a href=''>Council for the Preservation of Anthropological Records (CoPAR)</a></li><li><a href=''>Institut des sciences du langage (ISLa), University of Neuchatel (Switzerland)</a></li><li><a href=''>University of Maryland, College of Information Studies (iSchool)</a></li><a href=''>Ernest and Young (EY)</a></li>",
+                "Last but not least, I want to share a big thanks to both <a href=''>Anthony Capasso</a> as well as John Dutan for their contributions towards our collaborative project (Data Analyst Level 4)."
             ],
             "content-3": [
 
@@ -61,7 +67,7 @@
                 "images/Makeathon2023/UXTerp_Makeathon.jpg"
             ],
             "section-headers":[
-
+                
             ],
             "content-0": [
                 "Starting off, this is prompt 1 of what happened at the event.",
