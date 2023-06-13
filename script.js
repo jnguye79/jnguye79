@@ -94,7 +94,7 @@ async function mainEvent() {
 
     await fetchData();
 
-    if (currentPage === 'portfolio.html') {
+    if (currentPage === '/portfolio.html') {
       const urlParams = new URLSearchParams(window.location.search);
       const contentId = urlParams.get('id');
 
@@ -103,7 +103,7 @@ async function mainEvent() {
       } else {
         displayList(data_global.portfolio);
       }
-    } else if (currentPage === 'posts.html') {
+    } else if (currentPage === '/posts.html') {
       const urlParams = new URLSearchParams(window.location.search);
       const contentId = urlParams.get('id');
 
