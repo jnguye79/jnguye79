@@ -57,6 +57,7 @@ function filterCodeLangList(array, filterInputValue) {
     for (var j = 0; j < unfiltered.length; j++) {
       if (unfiltered[j].includes(filterInputValue)) {
         filtered.push(array[i]);
+        break;
       }
     }
   }
