@@ -41,6 +41,7 @@ function filterTopicList(array, filterInputValue) {
   var filtered = [];
   for (var i = 0; i < array.length; i++) {
     var unfiltered = array[i];
+    console.log(unfiltered);
     if (unfiltered.topic.toLowerCase().includes(filterInputValue)) {
       filtered.push(unfiltered);
     }
@@ -51,13 +52,14 @@ function filterTopicList(array, filterInputValue) {
 function filterCodeLangList(array, filterInputValue) {
   var filtered = [];
   for (var i = 0; i < array.length; i++) {
-      var unfiltered = array['code-language'];
-      for (let j = 0; j < unfiltered.length; j++) {
-        if (unfiltered[j].lowerCase.includes(filterInputValue.toLowerCase())) {
-          filtered.push(unfiltered);
-        }
+    var unfiltered = array[i]['code-language'];
+    console.log(unfiltered);
+    for (var j = 0; j < unfiltered.length; j++) {
+      if (unfiltered[j].includes(filterInputValue)) {
+        filtered.push(array[i]);
       }
     }
+  }
   return filtered;
 }
 
@@ -180,7 +182,7 @@ const displayList = (data) => {
         </div>
       </li>
     `
-    ).join("");
+  ).join("");
     data_show.innerHTML = dataHTMLString;
   } else if (currentPage == '/jnguye79/posts.html') {
     const data_show = document.getElementById('data-show');
