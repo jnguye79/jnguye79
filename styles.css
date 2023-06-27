@@ -50,10 +50,6 @@ body {
 .body {
     margin: 0 auto;
     max-width: 1200px;
-   /* padding: 100px;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px; */
     color: #51586f;
 }
 
@@ -134,6 +130,7 @@ body {
 /* Page Properties */
 .data-content {
     display: flex;
+    padding-right: 0px;
 }
 
 /* .table-content {
@@ -150,7 +147,7 @@ body {
 
 /* Page-Content Properties */
 .page-content {
-    grid-column: 2;
+
 }
 /* Content-Show Properties */
 .content-show {
@@ -166,6 +163,8 @@ body {
 }
 
 .content-show p {
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 /* Footer Properties */
@@ -180,6 +179,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    /* Padding Correction */
+    padding-left: 0px;
 }
 
 .foot_links li {

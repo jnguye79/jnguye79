@@ -8,18 +8,45 @@
             "date-created": "2023-05-15",
             "title": "Info Challenge 2023",
             "alt": "Info Challenge 2023 by College of Information Studies @ University of Maryland, College Park - STAMP Center",
-            "thumbnail": "images/Info_Challenge2023/Info_Challenge.jpg",
             "caption": "An event hosted for the Information Science majors (at the University of Maryland, College Park) which included a multitude of campuses such as Montgomery College, University of Maryland - Baltimore County, and the United States Naval Academy (USNA). This event hosted a number of Data Analytical, Cybersecurity, and UI/UX Design challenges. Info Challenge 2023 is sponsored by Ernest and Young (EY) and the United States Naval Academy (USNA).",
-            "table-of-contents": {},
-            "description": [
-                "Starting off, this is prompt 1 of what happened at the event.",
-                "This is prompt 2 of what happened at the event.",
-                "Lastly, this is prompt 3"
+            "links": [
+                "https://github.com/jnguye79/IC2023"
             ],
-            "images": [
+            "table-of-contents": [
+                
+            ],
+            "gallery": [
+                "images/Info_Challenge2023/Info_Challenge.jpg"
+            ],
+            "section-headers":[
+                "The Start of a Great Event",
+                "Presentational Conclusions",
+                "Many Thanks"
+            ],
+            "content-0": [
+                "At the end of February, I had the opportunity to attend the Info Challenge event hosted at the University of Maryland, College Park campus.",
+                "At the event, there were a number of workshops to attend. Out of the many great workshops, there were two memorable workshops which greatly attributed towards my challenge.", 
+                "One was the Python workshop, which explained how to use geopy to reverse-geocode our coordinates into addresses. The Python course also taught us how to extrapolate the data further to guess futuristic probabilities which helped our work as well. The other workshop was the Tableau workshop, which gave us the opportunity to scour our dataset geographically to perform a visual analysis."
+            ],
+            "content-1": [
+                "After reviewing the presentational portion of the event, I believe that there was a lot to learn from this experience. I wanted to share a few keynote tips for others to use down below:",
+                "<ol><li>It's important to greet everyone in the meeting. Sharing your enthusiam toward the project is also beneficial as it shares a ton of great qualities about yourself and your team.</li><li>Following that, be prepared for questions. Think about various weakpoints/controversial points in your problem that you will encounter in the discussion.</li><li>Practice, practice, practice your speech. A tip shared to me a long time ago is that for every minute you spend presenting, make sure to spend 30 mins to an hour for each minute practicing."
+            ],
+            "content-2": [
+                "Many thanks to the department staffs from the <a href=''>College of Information Studies</a>, <a href=''>Ernest and Youngst (EY)</a>, as well as the <a href=''>United States Naval Academy (USNA)</a> for hosting an amazing event.",
+                "I want to share a list of organizations who helped provide a challenge design for the students. A big thanks to those who offered relevant real-world challenges for us to tackle:",
+                "<ul><li><a href=''>Washington Traffic Safety Commissions (WTSC)</a></li><li><a href=''>CrisisFACTS Initiative</a></li><li><a href=''>University of Maryland, Office of International Affairs - Global Learning Initiatives</a></li><li><a href=''>Council for the Preservation of Anthropological Records (CoPAR)</a></li><li><a href=''>Institut des sciences du langage (ISLa), University of Neuchatel (Switzerland)</a></li><li><a href=''>University of Maryland, College of Information Studies (iSchool)</a></li><a href=''>Ernest and Young (EY)</a></li>",
+                "Last but not least, I want to share a big thanks to both <a href=''>Anthony Capasso</a> as well as John Dutan for their contributions towards our collaborative project (Data Analyst Level 4)."
+            ],
+            "content-3": [
 
             ],
-            "links": {}
+            "content-4": [
+
+            ],
+            "content-5": [
+                
+            ]
         },
         {
             "id": 1,
@@ -29,18 +56,45 @@
             "date-created": "2023-05-19",
             "title": "Makeathon 2023",
             "alt": "Makeathon 2023 by UXTerps @ University of Maryland, College Park - Hornbake Library",
-            "thumbnail": "images/Makeathon2023/UXTerp_Makeathon.jpg",
             "caption": "An event hosted for the Design and Information majors to work under three different UI/UX challenges. These challenges were sponsored by Communicate Health, College of Information Studies, University of Maryland - Department of Computer Science, Iribe Initiative for Inclusion & Diversity in Computing, SEE (Student Entertainment Events), and Pepsi.",
-            "table-of-contents": {},
-            "description": [
-                "Starting off, this is prompt 1 of what happened at the event.",
-                "This is prompt 2 of what happened at the event.",
-                "Lastly, this is prompt 3"
+            "links": [
+
             ],
-            "images": [
+            "table-of-contents": [
+
+            ],
+            "gallery": [
+                "images/Makeathon2023/UXTerp_Makeathon.jpg"
+            ],
+            "section-headers":[
+                "Gathering of an Event",
+                "Lessons from a Presentation",
+                "Final Mentions"
+            ],
+            "content-0": [
+                "A week before <a href=''>BitCamp</a>, I attended the Makeathon 2023 hosted by UXTerps from the College of Information Studies. At this two day event, I met up with many other participants, chatted with graduates, discussed the challenge with my team and others.",
+                "Thinking back on the event now, "
+            ],
+            "content-1": [
+                "One of the most memorable moments during the event was during the presentation. When I walked into the room, many teams were noticably eager. When the first team rose begun to present, they blew the stage with their work. What seemed to be a month of work was seemlessly made in two days.",
+                "When we rose to present, I was very nervous. As a team, we decided that it was best to present small feasible steps towards fixing up the page. We made this our strong point and with that, we won the favor of the judges.",
+                "With this, we surprisingly won 1st place by playing on our key points. I was very fortunate to have a great team that tackled the questions with me.",
+                "Additionally, we made a few analogies of Mario Kart which I'm happy to present in the photos above. It made for a very memorable moment."
+
+            ],
+            "content-2": [
+                "As for the final mentions, I want to thank <a href=''>UXTerps</a> from the <a href=''>College of Information Studies (iSchool)</a> for hosting this event.", 
+                "Additional thanks towards my two team members <a href=''>Claudia Aguilar</a> and <a href=''>Omena</a> for their collaborative work. Without the team's skills and academic backgrounds, this project would not have came out to be as well designed as it is now. Without them, we would not have the opportunity to win first place as well!"
+            ],
+            "content-3": [
+
+            ],
+            "content-4": [
+
+            ],
+            "content-5": [
                 
-            ],
-            "links": {}
+            ]
         },
         {
             "id": 2,
@@ -50,18 +104,46 @@
             "date-created": "2023-05-19",
             "title": "BitCamp 2023",
             "alt": "BitCamp 2023 by University of Maryland, College Park - Xfinity Center",
-            "thumbnail": "images/BitCamp2023/BitCamp.jpg",
             "caption": "An event hosted for candidates who are interested in coding. Bitcamp is an event where students compete, have fun, and find opportunities!",
-            "table-of-contents": {},
-            "description": [
-                "Starting off, this is prompt 1 of what happened at the event.",
-                "This is prompt 2 of what happened at the event.",
-                "Lastly, this is prompt 3"
+            "links": [
+
             ],
-            "images": [
-                
+            "table-of-contents": [
+
             ],
-            "links": {}
+            "gallery": [
+                "images/BitCamp2023/BitCamp.jpg"
+            ],
+            "section-headers":[
+                "A Fun Fair",
+                "Attending Events and Meeting People",
+                "Special Thanks"
+            ],
+            "content-0": [
+                "A week after attending <a href=''>Makeathon 2023</a>, I attended the BitCamp 2023 event hosted at the University of Maryland, College Park campus.", 
+                "Throughout the event, I accompanied myself with more students and had a fun time with all the events that were periodically being hosted."
+            ],
+            "content-1": [
+                "Out of all of the memorable events during BitCamp, there was one event overall stood out to me. In the stadium where the event was being hosted, members from each organizations sat in a circle and shared great insight about the event.",
+                "I had the opportunity to sit down (front and center) and listen to their conversation. They spoke about their background and shared glimpses of their daily work life.",
+                "Throughout all of this, they expressed one thing that stood out to me. As each member went around sharing their personal intake on the questionaires, they all agreed how important it is to communicate and network in this event. I remember looking around to all the other individuals and teams spending their hours away coding, and then looking back at the group to only find about 1-2 other students sitting in and listening to the event with me.",
+                "This was strange to me, as no one was listening to those who took their time to come and connect with students for help with their future endeavours.",
+                "As for the rest of the day, I spent my time talking to each and every organization. I'm very fortunate to have met some incredible individuals and some unforgettable faces. I hope to meet them again possibly in the future."
+            ],
+            "content-2": [
+                "I want to share a big thanks to the organizations that took the time to come out to the event.",
+                "<ul><li>Geico</li><li>1517</li><li>Cockroach DB</li></ul>"
+            ],
+            "content-3": [
+
+            ],
+            "content-4": [
+
+            ],
+            "content-5": [
+
+            ]
+
         }
     ],
     "portfolio": [
@@ -79,19 +161,54 @@
             "date-created": "2023-05-21",
             "name": "Washington Data Crash Files",
             "alt": "Data Analytics Level 4 Challenge for the Info Challenge 2023 @ University of Maryland, College Park",
-            "thumbnail": "images/Info_Challenge2023/Washington_Crash.jpg",
             "caption": "In this project, we took a look at crash data from Washington State and analyzed traffic patterns that occur throughout the entire state. Using Python to reverse geocode this information, we began formulating solutions to this potential problem (that is, minimizing crash throughout the state).",
-            "table-of-contents": {},
-            "description": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            ],
-            "images": [
-
-            ],
             "links": [
                 "https://github.com/jnguye79/IC2023"
+            ],
+            "table-of-contents": {},
+            "gallery": [
+                "images/Info_Challenge2023/L4/Washington_Crash.jpg",
+                "images/Info_Challenge2023/L4/L4_Data_Clean.png",
+                "images/Info_Challenge2023/L4/L4_Reverse_Geocode.png",
+                "images/Info_Challenge2023/L4/L4_Data_Analysis_1.png",
+                "images/Info_Challenge2023/L4/L4_Data_Analysis_2.png"
+
+            ],
+            "section-headers": [
+                "A State Promise",
+                "Taking On New Skills - Reverse Geocoding",
+                "Critical Analysis",
+                "Further Analysis",
+                "Acknowledgements"
+            ],
+            "content-0": [
+                "The Washington Traffic Safety Commission (WTSC) is Washington’s designated State Highway Safety Office and with a numbers of partners, believes in the vision of '<a href='http://wtsc.wa.gov/wp-content/uploads/dlm_uploads/2022/11/WTSC_TZAP_FINAL_Nov-2022.pdf'>Target Zero</a>' and a future when there are no traffic fatalities or serious injuries on Washington roadways. Since the COVID-19 pandemic began in Spring 2020, Washington has experienced an unprecedented year-over-year increase in traffic fatalities.", 
+                "The WTSC manages traffic safety behavior programs which include heavy investments in media and outreach. Many of these efforts are intended for a statewide audience, and WTSC also support numerous local media and community outreach efforts.",
+                "In this challenge, we will analyze Washington's traffic data geographically as well as logistically. We will address required deliverables and theoretically come up with solutions based on our data analysis."
+            ],
+            "content-1": [
+                "Upon taking on this challenge, there were a number of obstacles that must be handled. As a team, we were presented with locational data in the form of coordinates. These coordinates must be reverse geocoded in order to interpret the data.",
+                "I found an <a href='https://towardsdatascience.com/reverse-geocoding-in-python-a915acf29eb6'>article</a> that helped out tremendously on reverse geocoding locational coordinates to return an address. Each coordinate was then converted into an address and put into a list.",
+                "The main problem is that each locational address came with some complications and minute differences that must be handled, with some coordinates having to result to no address. These addresses were substitute to zero.",
+                "As for visual representation, we used Tableau to get a visual understanding of clusters where crash accidents frequented."
+            ],
+            "content-2": [
+                "After analyzing the crash dataset using R and Tableau, we realized a number of important things. First off, crashes 'inside of a county' versus 'outside of a county' were ratio'ed to be 1:3. It was concluded that accidents generally occur more often (up to 3x more) outside of a location that a driver isn't acquainted with.",
+                "We also took a look at personal demographics of each specific crash. In this case, we compared crashes, median income, and crash per capita for the five most zipcodes with the most crashes.",
+                "When we took a look at geographical data, most of the crashes were specifically located within the two main cities in Washington (Seattle and Spoken) as well as state entryways (Portland).", 
+                "My partner, <a href='https://www.linkedin.com/in/anthony-capasso-813551234/'>Anthony Capasso</a>, discussed another nuance based his own interests. He realized that crashes on state entryways tend to be based around people entering through different states for the baseball games that occur in Seattle. A solution that he recommended was to allow for alternative transportation routes such as public busses in order to reduce the number of new visitors into the state.",
+                "Another point I realized is that analyzing a general work-life balance of most individuals in Seattle can be a way to help deter crashes. For example, 9AM and 5PM traffic can be better supervised due to more vehicles to get to and from work."
+            ],
+            "content-3": [
+                "After reflecting on the end of the event, we concluded that there were a number of areas that could be better refined. WIth more time, we would have broken down each city (more importantly Seattle) to differnt districts and specifically analyze traffic routes and crash persepctives located in each district.",
+                "Additionally, we could have determined other variables to compare such as comparing similar accident patterns at the same locations. This is a whole entire branch to uncover as each dataset had not taken into account to analyze. With more time, this point of concern may bring about change towards reducing crashes in Washington."
+            ],
+            "content-4": [
+                "A big thanks to the <a href='https://ischool.umd.edu/'>College of Information Studies</a> for hosting such an amazing event. Additional thanks to the <a href='https://www.usna.edu/homepage.php'>US Naval Academy</a> and <a href='https://www.ey.com/en_us'>Ernest & Young</a> (EY) for sponsoring this event.",
+                "I want to mention many thanks towards my two partners, <a href='https://www.linkedin.com/in/anthony-capasso-813551234/'>Anthony Capasso</a> and John Dutan for their amazing contribution and team energy. WIthout them, analyzing this data alone would be an impossible feat."
+            ],
+            "content-5": [
+
             ]
         },
         {
@@ -106,13 +223,14 @@
             "date-created": "2023-05-21",
             "name": "iSchool Design Challenge",
             "alt": "One of three challenges from Makeathon 2023 Event @ University of Maryland, College Park",
-            "thumbnail": "images/Makeathon2023/iSchool_Design.jpg",
             "caption": "With the large number of student admissions into the College of Information Studies, it is essential that the website is maintained to have easy access to the many questions that Information Science students need. To do this, we address a few pain points when navigating the site and reworked components to build for easier usage for students.",
-            "table-of-contents": {},
-            "images": [
-
+            "links": [
+                "https://github.com/jnguye79/Makeathon2023",
+                "https://jnguye79.github.io/jnguye79/posts.html?id=1"
             ],
+            "table-of-contents": {},
             "gallery": [
+                "images/Makeathon2023/iSchool_Design.jpg",
                 "images/Makeathon2023/iSchool_Portfolio_Cover.jpg",
                 "images/Makeathon2023/iSchool_The_Pain_Point.jpg",
                 "images/Makeathon2023/iSchool_Thought_Process.jpg",
@@ -157,11 +275,11 @@
                 "With this idea, that was how we came up with most of our design for the page."
 
             ],
-            "content-4": [],
-            "content-5": [],
-            "links": [
-                "https://github.com/jnguye79/Makeathon2023",
-                "https://jnguye79.github.io/jnguye79/posts.html?id=1"
+            "content-4": [
+
+            ],
+            "content-5": [
+
             ]
         },
         {
@@ -179,46 +297,49 @@
             "date-created": "2023-05-21",
             "name": "Pokemon API Database",
             "alt": "Final Project for INST377 (Dynamic Web Applications) @ University of Maryland, College Park",
-            "thumbnail": "images/INST377-Final-Project/Pokemon_API.jpg",
             "caption": "A number of Pokemon websites share a plethora of information revolving around Pokemons. With large amount of Pokemon data, it can be hard to organize and even harder to navigate for such information. In this project, we handle the problems of searching for a specific pokemon; Using other filters such as type, physical characteristics, and movesets to handle finding a specific Pokemon.",
+            "links": [
+                "https://github.com/jnguye79/INST377-Final-Project"
+            ],
             "table-of-contents": {},
-            "cover": "images/Makeathon2023/iSchool_Portfolio_Cover.jpg",
+            "gallery": [
+                "images/INST377-Final-Project/Pokemon_API.jpg"
+            ],
             "section-headers": [
                 "Pokemon Filters",
-                "What We Can Do",
-                "Results",
+                "What We Did + Results",
                 "Future Considerations + Lessons Learned"
             ],
             "content-0": [
-                "A number of Pokemon websites share a plethora of information revolving around Pokemons. With large amount of Pokemon data, it can be hard to organize and even harder to navigate for such information.", 
+                "A number of Pokemon websites share a plethora of information revolving around Pokemons. With large amount of Pokemon data, it can be hard to organize and even harder to navigate for such information.",
+                "If you're an avid Pokemon fan, you might know the name of your favorite Pokemon like the back of your hand. What if you were a newcomer, or a fan from way back then? You might not be able to remember at the top of your head that one Pokemon that you went on tons of adventures with.",
+                "If you try searching online, you'll be met with tons of encyclopedias such as <a href=''>this</a> or <a href=''>this</a> or even <a href=''>this!</a>. All these websites all do the same thing, organize Pokemon based on their generation!",
                 "In this project, we handle the problems of searching for a specific pokemon; Through the usage of other filters such as type, physical characteristics, and movesets to handle finding a specific Pokemon.",
-                "If you're a Pokemon fan, you might know that---"
+                "So if you remember a pokemon move that you use frequently (or any other characteristics featured on our webpage), you can filter using that attribute to find your Pokemon!"
             ],
             "content-1": [
-
+                "There was a lot to learn from this project (many thanks to <a href='https://ischool.umd.edu/directory/alex-leitch/'>Professor Leitch</a>).",
+                "Starting off, there was a ton of new introductory JavaScript concepts that I had to learn to implement such as 'async/await', 'promises', and 'fetch'. I will be sharing some more learning content about these topics at a later time.",
+                "From these topics, I continued to learn about API's and begun to take advantage of the localStorage.",
+                "A huge thanks to my partner <a href='https://www.linkedin.com/in/anthony-capasso-813551234/'>Anthony Capasso</a> for setting up the localStorage process and the <a href='https://michalsnik.github.io/aos/'>AOS JS Library</a>.",
+                "Lastly, the page is mostly comprised of a looping refresher that reloads HTML for each search query. 'Text Inputs' reinjected HTML per each new letter input and 'Category Inputs' reinjected HTML per each category.",
+                "As for the results, you can see a screenshot of the image below. Click <a href='https://jnguye79.github.io/INST377-Final-Project/'>here</a> for the page."
             ],
             "content-2": [
-
+                "With this final project for INST377 (Dynamic Web Applications), my partner and I learned numerous topics of JavaScript. It was an incredible experience to learn all of this within a semester under Professor Leitch's guidance.",
+                "This project has jumpstarted my desires to build my own portfolio (the current website that you are on!). With this portfolio, I continued to build onto my JavaScript by using JSON data to fill up my page. You can see how it has been progressing <a href=''>right here</a>.",
+                "As for further considerations, I realized that the UI/UX was not up to par as expected. If any changes were to be made in the future, I would most likely reference the layouts of the Pokemon websites discussed before."
             ],
             "content-3": [
-                ""
+            
             ],
             "content-4": [
 
             ],
             "content-5": [
 
-            ],
-            "description": [
-                "This is prompt 2 of what happened at the event.",
-                "Lastly, this is prompt 3"
-            ],
-            "images": [
-
-            ],
-            "links": [
-                "https://github.com/jnguye79/INST377-Final-Project"
             ]
+
         },
         {
             "id": 3,
@@ -231,19 +352,42 @@
             "date-created": "2023-05-21",
             "name": "Game Console Database",
             "alt": "Final Project for INST327 (Database Design and Modeling) @ University of Maryland, College Park",
-            "thumbnail": "images/INST327-Final-Project/Console_ERD.png",
             "caption": "Throughout the years, gaming is revolutionized in a number of ways. A single game can be published for multiple consoles or can be exclusive to build competition. In this project, we work on constructing a small database comprised of a number of old consoles with a number of game titles.",
-            "table-of-contents": {},
-            "description": [
-                "Starting off, this is prompt 1 of what happened at the event.",
-                "This is prompt 2 of what happened at the event.",
-                "Lastly, this is prompt 3"
-            ],
-            "images": [
-
-            ],
             "links": [
                 "https://github.com/jnguye79/MySQL/tree/main/INST327"
+            ],
+            "table-of-contents": {},
+            "gallery": [
+                "images/INST327-Final-Project/Console_ERD.png",
+                "images/INST327-Final-Project/INST377_Views_Queries.png"
+            ],
+            "section-headers": [
+                "The Revolution of Consoles",
+                "A Small Replicate",
+                "Accomplishments + Learning Points"
+            ],
+            "content-0": [
+                "Throughout the years, gaming is revolutionized in a number of ways. We went from small visual bits with their own orchestrated bit music to what is now, 4k visually qualities with majestical orchestrations.",
+                "These games that primarily used to be found on a floopy disk slowly began to find themselves running on different consoles. These days, you can find <a href='https://www.xbox.com/en-US'>Xbox</a> and <a href='https://www.playstation.com/en-us/'>Playstation</a> compete for exclusivity towards their consoles by labeling games exclusive for each console.",
+                "In this project, we work on constructing a small database comprised of a number of old consoles with a number of game titles. This project simulates only a small portion of what is now an ever-growing genre."
+            ],
+            "content-1": [
+                "Inserting data into an excel sheet can be very mundane and repetitive. The reason why we chose to only replicate a small portion of this extremely large and complex database is to bring our skills to the test.",
+                "In this project, my team and I prioritized testing our skill that we learned in class. These concepts are ER (Entity-Relational) diagrams (visual), normalization (organization to reduce redundancy), indexing (search optimizations + joining tables), integrity (primary + foreign keys concepts). I will update this post to talk about these more in the future.",
+                "Our team also had the chance to work on views/queries. These views/queries are built to specifically allow a separate visual to different departments and positions within the work environment.", 
+                "A great example is that the financial department in a company may only require information pertaining towards a company sales but the retail department may require an inventory database as well as the daily sales to cross-reference and check."
+            ],
+            "content-2": [
+                "There's a <a href='https://github.com/jnguye79/MySQL/blob/main/INST327/Final%20Project/Final%20Project.pdf'>PDF</a> file that our team finalized for this project. I highly recommend anyone interested in the project to take a look at that as it does a great job at concluding our work. Additionally, I want to give a big thanks to <a href='https://www.linkedin.com/in/patrice-j-shumate/'>Patrice Shumate</a> and <a href='https://www.linkedin.com/in/benjamin-zheng-913133211/'>Benjamin Zheng</a> for their amazing contributions to the project. Without them, I wouldn't have been able to fill out the many relation tables that we had.</a>"
+            ],
+            "content-3": [
+                
+            ],
+            "content-4": [
+
+            ],
+            "content-5": [
+
             ]
         },
         {
@@ -258,16 +402,15 @@
             "date-start": "2023-05-01",
             "date-end": {},
             "date-created": "2023-06-01",
-            "name": "Portfolio (New)",
+            "name": "Portfolio",
             "alt": "Work Portfolio for Jimmy Nguyen. This is an ongoing project that will be continuously developed upon",
-            "thumbnail": "images/Portfolio/no_image.png",
             "caption": "This is a portfolio consisting of the development of the page, as well as the learning experience from each session. In this project, I plan to share tips and tricks on building out your portfolio in the 'Information Tech' field. Hopefully, these contributions will be helpful to those who find it.",
-            "table-of-contents": {},
-            "images": [
-
+            "links": [
+                "https://github.com/jnguye79/jnguye79"
             ],
+            "table-of-contents": {},
             "gallery": [
-                
+                "images/Portfolio/Portfolio_Cover.png"
             ],
             "section-headers": [
                 "Experiencing the Learning Curve",
@@ -296,8 +439,7 @@
             "content-5": [
 
             ]
-
         }
-
+        
     ]
 }

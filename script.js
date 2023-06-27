@@ -41,6 +41,7 @@ function filterTopicList(array, filterInputValue) {
   var filtered = [];
   for (var i = 0; i < array.length; i++) {
     var unfiltered = array[i];
+    console.log(unfiltered);
     if (unfiltered.topic.toLowerCase().includes(filterInputValue)) {
       filtered.push(unfiltered);
     }
@@ -51,11 +52,15 @@ function filterTopicList(array, filterInputValue) {
 function filterCodeLangList(array, filterInputValue) {
   var filtered = [];
   for (var i = 0; i < array.length; i++) {
-      var unfiltered = array[i];
-      if (unfiltered['code-language'].includes(filterInputValue.toLowerCase())) {
-        filtered.push(unfiltered);
+    var unfiltered = array[i]['code-language'];
+    console.log(unfiltered);
+    for (var j = 0; j < unfiltered.length; j++) {
+      if (unfiltered[j].includes(filterInputValue)) {
+        filtered.push(array[i]);
+        break;
       }
     }
+  }
   return filtered;
 }
 
@@ -89,7 +94,11 @@ async function mainEvent() {
 
     await fetchData();
 
+<<<<<<< HEAD
     if (currentPage == '/jnguye79/portfolio.html') {
+=======
+    if (currentPage === '/portfolio.html') {
+>>>>>>> 916fc986074c48fc0a0415312cab6b76f4a71d88
       const urlParams = new URLSearchParams(window.location.search);
       const contentId = urlParams.get('id');
 
@@ -98,7 +107,11 @@ async function mainEvent() {
       } else {
         displayList(data_global.portfolio);
       }
+<<<<<<< HEAD
     } else if (currentPage == '/jnguye79/posts.html') {
+=======
+    } else if (currentPage === '/posts.html') {
+>>>>>>> 916fc986074c48fc0a0415312cab6b76f4a71d88
       const urlParams = new URLSearchParams(window.location.search);
       const contentId = urlParams.get('id');
 
@@ -107,10 +120,13 @@ async function mainEvent() {
       } else {
         displayList(data_global.posts);
       }
+<<<<<<< HEAD
     } else if (currentPage === 'content.html') {
       displayContent(data)
     }
 
+=======
+>>>>>>> 916fc986074c48fc0a0415312cab6b76f4a71d88
 
     /* Event Listeners for Posts */
     if (titleField) {
@@ -167,7 +183,7 @@ const displayList = (data) => {
     `
       <li>
         <div class="card"><a href="portfolio.html?id=${dataList.id}">
-          <img src="${dataList.thumbnail}" title="${dataList.alt}">
+          <img src="${dataList.gallery[0]}" title="${dataList.alt}">
           <div class="container">
             <h4><b>${dataList.name}</b></h4>
             <p>${dataList.topic}</p>
@@ -178,7 +194,7 @@ const displayList = (data) => {
         </div>
       </li>
     `
-    ).join("");
+  ).join("");
     data_show.innerHTML = dataHTMLString;
   } else if (currentPage == '/jnguye79/posts.html') {
     const data_show = document.getElementById('data-show');
@@ -186,7 +202,7 @@ const displayList = (data) => {
     `
       <li>
         <div class="card"><a href="posts.html?id=${dataList.id}">
-          <img src="${dataList.thumbnail}" title="${dataList.alt}">
+          <img src="${dataList.gallery[0]}" title="${dataList.alt}">
           <div class="container">
             <h4><b>${dataList.title}</b></h4>
             <p>${dataList.type}</p>
@@ -242,17 +258,20 @@ const displayContent = (data) => {
     let section_headers = post['section-headers'];
     const contentCount = 5;
 
-    dataHTMLString += `<h1>${post.name}</h1>`
+    if (post.name) {
+      dataHTMLString += `<h1>${post.name}</h1>`;
+    } else {
+      dataHTMLString += `<h1>${post.title}</h1>`;
+    }
     /* Page-Content -> Gallery */
-    if (post.cover) {
-      dataHTMLString += `<img src="${post.cover}"></img>`;
+    if (post.gallery) {
+      dataHTMLString += `<img src="${post.gallery[0]}"></img>`;
     }
 
     /* Page-Content -> Content */
     for (let i = 0; i <= contentCount; i++) {
       let contentList = `content-${i}`;
       let contentItems = post[contentList];
-      console.log(contentItems);
 
       if (contentItems && (contentItems.length > 0) ) {
         dataHTMLString += `<h3>${section_headers[i]}</h3>`;
@@ -264,8 +283,7 @@ const displayContent = (data) => {
 
     }
     
-    dataHTMLString = dataHTMLString.slice(0, -2);
-    console.log(dataHTMLString);
+    dataHTMLString = dataHTMLString.slice(0, -4);
     /* Remember to getElement of 'content_show' later to initialize it in HTML page as content-show. Same for 'data_show'.*/
     content_show.innerHTML = dataHTMLString;
   } else {

@@ -1,14 +1,14 @@
-# Jimmy N. 👋
+# Jimmy Nguyen
 
-Welcome to my page! To start off, my day-to-day basis consolidates around work, personal projects, and learning new skills. I hope to bring about specific contributions that can help the world feel safer, easier, and better. In the future, I plan to share resources (media/guides/tutorials) on how to easily use tech to help individuals. I hope you enjoy the rest of my profile page!
+Welcome to my page! To start off, my day-to-day basis consolidates around work, personal projects, and learning new skills. I hope to bring about specific contributions that can help the world feel safer, easier, and better. In the future, I plan to share resources (media/guides/tutorials) to teach individuals how to code something small, something big, something important to you!
 
-- 🔭 I’m currently working on Dynamic Web Applications (INST377), Statistics for Information Science (INST314), Information User Needs and Assessment (INST352), Introduction to Computer Science (CS50x).
-- 🌱 I’m currently learning HTML/CSS/JS, R, Python, SQL, C.
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
+- 🔭 I’m currently working on Introduction to Computer Science (CS50x), Introduction to Python (CS50x - Python) and my portfolio which you can find out more <a href="https://jnguye79.github.io/">here</a>!
+- 🌱 I’m currently learning HTML/CSS/JS, C, and Python.
+- 👯 I’m looking to collaborate on making an educational platform for people to learn hard concepts. How we differentiate is through simplification! Make hard concepts a breeze to understand.
+- 🤔 I’m looking for help with UI/UX components on my web-page!
 - 💬 Ask me about: What certains games I play, what is important in the development of AI, what languages I use and how they have helped me.
 - 📫 How to reach me: jnguye79@gmail.com
-- ⚡ Fun Question: With AI being at the forefront of controversial topics, what do you think we can do to enforce precautions around the development of AI. In doing so, how can we compete against other world powers who are also developing AI as well? Feel free to hit me up with a message and I'd love to chat with you about this topic!
+- ⚡ Fun Question: With AI being at the forefront of controversial topics, what do you think we can do to enforce precautions around the development of AI? In doing so, how can we compete against other world powers who are also developing AI as well?
 
 <p align="left">
   <a href="https://github.com/jnguye79?tab=followers">
