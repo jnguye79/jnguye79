@@ -89,7 +89,7 @@ async function mainEvent() {
 
     await fetchData();
 
-    if (currentPage === '/jnguye79/portfolio.html') {
+    if (currentPage == '/jnguye79/portfolio.html') {
       const urlParams = new URLSearchParams(window.location.search);
       const contentId = urlParams.get('id');
 
@@ -98,7 +98,7 @@ async function mainEvent() {
       } else {
         displayList(data_global.portfolio);
       }
-    } else if (currentPage === '/jnguye79/posts.html') {
+    } else if (currentPage == '/jnguye79/posts.html') {
       const urlParams = new URLSearchParams(window.location.search);
       const contentId = urlParams.get('id');
 
@@ -107,7 +107,7 @@ async function mainEvent() {
       } else {
         displayList(data_global.posts);
       }
-    } else if (currentPage === '/jnguye79/content.html') {
+    } else if (currentPage === 'content.html') {
       displayContent(data)
     }
 
