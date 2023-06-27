@@ -94,11 +94,7 @@ async function mainEvent() {
 
     await fetchData();
 
-<<<<<<< HEAD
-    if (currentPage == '/jnguye79/portfolio.html') {
-=======
-    if (currentPage === '/portfolio.html') {
->>>>>>> 916fc986074c48fc0a0415312cab6b76f4a71d88
+    if (currentPage === '/jnguye79/portfolio.html') {
       const urlParams = new URLSearchParams(window.location.search);
       const contentId = urlParams.get('id');
 
@@ -107,27 +103,17 @@ async function mainEvent() {
       } else {
         displayList(data_global.portfolio);
       }
-<<<<<<< HEAD
-    } else if (currentPage == '/jnguye79/posts.html') {
-=======
-    } else if (currentPage === '/posts.html') {
->>>>>>> 916fc986074c48fc0a0415312cab6b76f4a71d88
-      const urlParams = new URLSearchParams(window.location.search);
-      const contentId = urlParams.get('id');
+    } else if (currentPage === '/jnguye79/posts.html') {
+        const urlParams = new URLSearchParams(window.location.search);
+        const contentId = urlParams.get('id');
 
       if (contentId) {
         displayContent(data_global.posts)
       } else {
         displayList(data_global.posts);
       }
-<<<<<<< HEAD
-    } else if (currentPage === 'content.html') {
-      displayContent(data)
     }
-
-=======
->>>>>>> 916fc986074c48fc0a0415312cab6b76f4a71d88
-
+    
     /* Event Listeners for Posts */
     if (titleField) {
     titleField.addEventListener("input", (event) => {
