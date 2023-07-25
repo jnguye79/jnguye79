@@ -5,7 +5,7 @@ Welcome to my page! To start off, my day-to-day basis consolidates around work, 
 - 🔭 I’m currently working on Introduction to Computer Science (CS50x), building an AI generator using HTML/CSS/JS, and currently developing my portfolio which you can find out more <a href="https://jnguye79.github.io/jnguye79/">here</a>!
 - 🌱 I’m currently learning HTML/CSS/JS, C, and Python.
 - 👯 I’m looking to collaborate on making an educational platform for people to learn hard concepts.
-- 🤔 I’m looking for help with renovating my web portfolio page!
+- 🤔 I’m looking for help with renovating my web portfolio page, and learning how to build AI into different types of fields!
 - 💬 Ask me about: What certains games I play, what is important in the development of AI, what languages I use and how they have helped me.
 - 📫 How to reach me: jnguye79@gmail.com
 - ⚡ Fun Question: With AI being at the forefront of controversial topics, what do you think we can do to enforce precautions around the development of AI? In doing so, how can we compete against other world powers who are also developing AI as well?
