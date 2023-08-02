@@ -6,7 +6,7 @@ Welcome to my page! To start off, my day-to-day basis consolidates around work, 
 - 🌱 I’m currently learning HTML/CSS/JS, C, and Python.
 - 👯 I’m looking to collaborate on making an educational platform for people to learn hard concepts.
 - 🤔 I’m looking for help with renovating my web portfolio page, and learning how to build AI into different types of fields!
-- 💬 Ask me about: What certains games I play, what is important in the development of AI, what languages I use and how they have helped me.
+- 💬 Ask me about: What is important in the development of AI, what languages I use and how they have helped me.
 - 📫 How to reach me: jnguye79@gmail.com
 - ⚡ Fun Question: With AI being at the forefront of controversial topics, what do you think we can do to enforce precautions around the development of AI?
 
