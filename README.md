@@ -1,11 +1,11 @@
 # Jimmy Nguyen
 
-Welcome to my page! To start off, my day-to-day basis consolidates around work, personal projects, and learning new skills. I hope to bring about specific contributions that can help the world feel safer, easier, and better. In the future, I plan to share resources (media/guides/tutorials) to teach individuals how to code something small, something big, something important to you
+Welcome to my page! To start off, my day-to-day basis consolidates around work, personal projects, and learning new skills. I hope to bring about specific contributions that can help the world feel safer, easier, and better. In the future, I plan to share resources (media/guides/tutorials) to teach individuals how to code something small, something big, or something important to yourself.
 
-- 🔭 I’m currently working on Introduction to Computer Science (CS50x), building an AI generator using HTML/CSS/JS, and currently developing my portfolio which you can find out more <a href="https://jnguye79.github.io/jnguye79/">here</a>!
-- 🌱 I’m currently learning HTML/CSS/JS, C, and Python.
-- 👯 I’m looking to collaborate on making an educational platform for people to learn hard concepts.
-- 🤔 I’m looking for help with renovating my web portfolio page, and learning how to build AI into different types of fields!
+- 🔭 I’m currently working on my Capstone Project, , and currently developing my portfolio which you can find out more <a href="https://jnguye79.github.io/jnguye79/">here</a>!
+- 🌱 I’m currently learning PostGreSQL, Power BI/Query, and DAX. Currently preparing to learn how to build online client dashboard for specific user groups. 
+- 👯 I’m looking to collaborate on building personal projects.
+- 🤔 I’m looking for help with renovating my web portfolio page.
 - 💬 Ask me about: What is important in the development of AI, what languages I use and how they have helped me.
 - 📫 How to reach me: jnguye79@gmail.com
 - ⚡ Fun Question: With AI being at the forefront of controversial topics, what do you think we can do to enforce precautions around the development of AI?
