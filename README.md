@@ -2,7 +2,7 @@
 
 Welcome to my page! To start off, my day-to-day basis consolidates around work, personal projects, and learning new skills. 
 
-- 🔭 I’m currently working on applications and completing certifications.
+- 🔭 I’m currently working on applications and completing certifications such as the Google Data Analytics Certificate
 - 🌱 I’m currently learning PostGreSQL, Power BI/Query, and DAX.
 - 👯 I’m looking to collaborate on building personal projects.
 - 🤔 I’m looking for help with renovating my web portfolio page.
