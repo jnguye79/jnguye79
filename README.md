@@ -1,6 +1,6 @@
 # Jimmy Nguyen
 
-Welcome to my page! To start off, my day-to-day basis consolidates around work, personal projects, and learning new skills. 
+Welcome to my page!
 
 - 🔭 I’m currently working on applications and completing certifications such as the Google Data Analytics Certificate.
 - 🌱 I’m currently learning PostGreSQL, Power BI/Query, and DAX.
