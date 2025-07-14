@@ -2,11 +2,6 @@
 
 Welcome to my page!
 
-- 🔭 I’m currently working on applications and completing certifications such as the Google Data Analytics Certificate.
-- 🌱 I’m currently learning PostGreSQL, Power BI/Query, and DAX.
-- 👯 I’m looking to collaborate on building personal projects.
-- 🤔 I’m looking for help with renovating my web portfolio page.
-- 💬 Ask me about: What is important in the development of AI, what languages I use and how they have helped me.
 - 📫 How to reach me: jnguye79@gmail.com
 - ⚡ Fun Question: With AI being at the forefront of controversial topics, what do you think we can do to enforce precautions around the development of AI?
 
