@@ -1,4 +1,4 @@
-# Jimmy Nguyen
+# Jimmy N.
 
 Welcome to my page!
 
